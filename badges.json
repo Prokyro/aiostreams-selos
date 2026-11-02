@@ -4,7 +4,7 @@
       "label": "T1",
       "match": "\\bT1$",
       "fields": [
-        "rseMatched"
+        "rankedRegexMatched"
       ],
       "group": "tier",
       "color": "#0E0E0E",
@@ -15,7 +15,7 @@
       "label": "T2",
       "match": "\\bT2$",
       "fields": [
-        "rseMatched"
+        "rankedRegexMatched"
       ],
       "group": "tier",
       "color": "#EDE8DF",
@@ -25,7 +25,7 @@
       "label": "T3",
       "match": "\\bT3$",
       "fields": [
-        "rseMatched"
+        "rankedRegexMatched"
       ],
       "group": "tier",
       "color": "#8C8C8C",
