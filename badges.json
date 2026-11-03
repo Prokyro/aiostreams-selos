@@ -2,9 +2,9 @@
   "badges": [
     {
       "label": "T1",
-      "match": "\\bT1$",
+      "match": "^T1$",
       "fields": [
-        "rankedRegexMatched"
+        "rseMatched"
       ],
       "group": "tier",
       "color": "#0E0E0E",
@@ -13,9 +13,9 @@
     },
     {
       "label": "T2",
-      "match": "\\bT2$",
+      "match": "^T2$",
       "fields": [
-        "rankedRegexMatched"
+        "rseMatched"
       ],
       "group": "tier",
       "color": "#EDE8DF",
@@ -23,9 +23,9 @@
     },
     {
       "label": "T3",
-      "match": "\\bT3$",
+      "match": "^T3$",
       "fields": [
-        "rankedRegexMatched"
+        "rseMatched"
       ],
       "group": "tier",
       "color": "#8C8C8C",
