@@ -740,6 +740,160 @@
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
+    },
+    {
+      "label": "PM",
+      "match": "^Ready PM$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "svc",
+      "color": "#0E0E0E",
+      "background": "#8C8C8C",
+      "border": "#8C8C8C"
+    },
+    {
+      "label": "DL",
+      "match": "^Ready DL$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "svc",
+      "color": "#0E0E0E",
+      "background": "#8C8C8C",
+      "border": "#8C8C8C"
+    },
+    {
+      "label": "SN",
+      "match": "^Ready SN$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "svc",
+      "color": "#0E0E0E",
+      "background": "#8C8C8C",
+      "border": "#8C8C8C"
+    },
+    {
+      "label": "ND",
+      "match": "^Ready ND$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "svc",
+      "color": "#0E0E0E",
+      "background": "#8C8C8C",
+      "border": "#8C8C8C"
+    },
+    {
+      "label": "AM",
+      "match": "^Ready AM$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "svc",
+      "color": "#0E0E0E",
+      "background": "#8C8C8C",
+      "border": "#8C8C8C"
+    },
+    {
+      "label": "OC",
+      "match": "^Ready OC$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "svc",
+      "color": "#0E0E0E",
+      "background": "#8C8C8C",
+      "border": "#8C8C8C"
+    },
+    {
+      "label": "P.IO",
+      "match": "^Ready P\\.IO$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "svc",
+      "color": "#0E0E0E",
+      "background": "#8C8C8C",
+      "border": "#8C8C8C"
+    },
+    {
+      "label": "ED",
+      "match": "^Ready ED$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "svc",
+      "color": "#0E0E0E",
+      "background": "#8C8C8C",
+      "border": "#8C8C8C"
+    },
+    {
+      "label": "DR",
+      "match": "^Ready DR$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "svc",
+      "color": "#0E0E0E",
+      "background": "#8C8C8C",
+      "border": "#8C8C8C"
+    },
+    {
+      "label": "PKP",
+      "match": "^Ready PKP$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "svc",
+      "color": "#0E0E0E",
+      "background": "#8C8C8C",
+      "border": "#8C8C8C"
+    },
+    {
+      "label": "SEEDR",
+      "match": "^Ready SEEDR$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "svc",
+      "color": "#0E0E0E",
+      "background": "#8C8C8C",
+      "border": "#8C8C8C"
+    },
+    {
+      "label": "ST",
+      "match": "^Ready ST$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "svc",
+      "color": "#0E0E0E",
+      "background": "#8C8C8C",
+      "border": "#8C8C8C"
+    },
+    {
+      "label": "AIO",
+      "match": "^Ready AIO$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "svc",
+      "color": "#0E0E0E",
+      "background": "#8C8C8C",
+      "border": "#8C8C8C"
+    },
+    {
+      "label": "TR",
+      "match": "^Ready TR$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "svc",
+      "color": "#0E0E0E",
+      "background": "#8C8C8C",
+      "border": "#8C8C8C"
     }
   ]
 }
