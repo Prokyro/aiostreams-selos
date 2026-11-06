@@ -703,7 +703,7 @@
       "fields": [
         "rseMatched"
       ],
-      "group": "svc",
+      "group": "aiostreams-selos-services",
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
@@ -714,7 +714,7 @@
       "fields": [
         "rseMatched"
       ],
-      "group": "svc",
+      "group": "aiostreams-selos-services",
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
@@ -725,7 +725,7 @@
       "fields": [
         "rseMatched"
       ],
-      "group": "svc",
+      "group": "aiostreams-selos-services",
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
@@ -736,7 +736,7 @@
       "fields": [
         "rseMatched"
       ],
-      "group": "svc",
+      "group": "aiostreams-selos-services",
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
@@ -747,7 +747,7 @@
       "fields": [
         "rseMatched"
       ],
-      "group": "svc",
+      "group": "aiostreams-selos-services",
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
@@ -758,40 +758,40 @@
       "fields": [
         "rseMatched"
       ],
-      "group": "svc",
+      "group": "aiostreams-selos-services",
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
     },
     {
       "label": "SN",
-      "match": "^Ready SN$",
+      "match": "^SNNTP$",
       "fields": [
         "rseMatched"
       ],
-      "group": "svc",
+      "group": "aiostreams-selos-services",
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
     },
     {
       "label": "ND",
-      "match": "^Ready ND$",
+      "match": "^NZD$",
       "fields": [
         "rseMatched"
       ],
-      "group": "svc",
+      "group": "aiostreams-selos-services",
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
     },
     {
       "label": "AM",
-      "match": "^Ready AM$",
+      "match": "^ALT$",
       "fields": [
         "rseMatched"
       ],
-      "group": "svc",
+      "group": "aiostreams-selos-services",
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
@@ -802,18 +802,18 @@
       "fields": [
         "rseMatched"
       ],
-      "group": "svc",
+      "group": "aiostreams-selos-services",
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
     },
     {
       "label": "P.IO",
-      "match": "^Ready P\\.IO$",
+      "match": "^Ready PUT$",
       "fields": [
         "rseMatched"
       ],
-      "group": "svc",
+      "group": "aiostreams-selos-services",
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
@@ -824,29 +824,29 @@
       "fields": [
         "rseMatched"
       ],
-      "group": "svc",
+      "group": "aiostreams-selos-services",
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
     },
     {
       "label": "DR",
-      "match": "^Ready DR$",
+      "match": "^Ready DBR$",
       "fields": [
         "rseMatched"
       ],
-      "group": "svc",
+      "group": "aiostreams-selos-services",
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
     },
     {
       "label": "PKP",
-      "match": "^Ready PKP$",
+      "match": "^Ready PK$",
       "fields": [
         "rseMatched"
       ],
-      "group": "svc",
+      "group": "aiostreams-selos-services",
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
@@ -857,40 +857,40 @@
       "fields": [
         "rseMatched"
       ],
-      "group": "svc",
+      "group": "aiostreams-selos-services",
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
     },
     {
       "label": "ST",
-      "match": "^Ready ST$",
+      "match": "^STNEWZ$",
       "fields": [
         "rseMatched"
       ],
-      "group": "svc",
+      "group": "aiostreams-selos-services",
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
     },
     {
       "label": "AIO",
-      "match": "^Ready AIO$",
+      "match": "^AIO$",
       "fields": [
         "rseMatched"
       ],
-      "group": "svc",
+      "group": "aiostreams-selos-services",
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
     },
     {
       "label": "TR",
-      "match": "^Ready TR$",
+      "match": "^Ready TORRIN$",
       "fields": [
         "rseMatched"
       ],
-      "group": "svc",
+      "group": "aiostreams-selos-services",
       "color": "#0E0E0E",
       "background": "#8C8C8C",
       "border": "#8C8C8C"
