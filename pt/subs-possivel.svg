@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="16" viewBox="0 0 52 16">
+  <rect x="1" y="3" width="15" height="10" rx="1.2" fill="#159447"/>
+  <path d="M2.2 8 8.5 4.05 14.8 8 8.5 11.95Z" fill="#FFDD36"/>
+  <circle cx="8.5" cy="8" r="2.55" fill="#2149A0"/>
+  <path d="M6.27 7.42c1.66-.19 3.2.34 4.38 1.23" fill="none" stroke="#fff" stroke-width=".64"/>
+  <text x="20" y="11.6" font-family="Segoe UI, Arial, sans-serif" font-size="10.4" font-weight="700" fill="#FFE7AD">SUBS?</text>
+</svg>
