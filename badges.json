@@ -10,7 +10,7 @@
       "color": "#D2FFEB",
       "background": "#123D2A",
       "border": "#45B582",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio.svg"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio.svg?v=2"
     },
     {
       "label": "🇧🇷 ÁUDIO ✓ FONTE",
@@ -22,7 +22,7 @@
       "color": "#B5F4D6",
       "background": "#142F26",
       "border": "#3B9170",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio-fonte.svg"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio-fonte.svg?v=2"
     },
     {
       "label": "🇧🇷 SUBS",
@@ -34,7 +34,7 @@
       "color": "#DEF4FF",
       "background": "#143349",
       "border": "#54A5D1",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/subs.svg"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/subs.svg?v=2"
     },
     {
       "label": "🇧🇷 SUBS FORÇ.",
@@ -46,7 +46,7 @@
       "color": "#DCE9FF",
       "background": "#1E2E49",
       "border": "#6B8FC4",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/subs-forcada.svg"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/subs-forcada.svg?v=2"
     },
     {
       "label": "🇧🇷 ÁUDIO?",
@@ -58,7 +58,7 @@
       "color": "#FFE7AD",
       "background": "#382B17",
       "border": "#AE843D",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio-possivel.svg"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio-possivel.svg?v=2"
     },
     {
       "label": "🇧🇷 SUBS?",
@@ -70,7 +70,7 @@
       "color": "#FFE7AD",
       "background": "#382B17",
       "border": "#AE843D",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/subs-possivel.svg"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/subs-possivel.svg?v=2"
     },
     {
       "label": "🇧🇷 INDÍCIO PT",
@@ -82,7 +82,7 @@
       "color": "#E8DCC8",
       "background": "#2D271E",
       "border": "#80705A",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/indicio.svg"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/indicio.svg?v=2"
     },
     {
       "label": "T1",
