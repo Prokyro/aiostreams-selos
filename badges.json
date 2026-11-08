@@ -1,6 +1,83 @@
 {
   "badges": [
     {
+      "label": "🇧🇷 ÁUDIO ✓",
+      "match": "^Audio PT verificado na faixa$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "aiostreams-selos-pt",
+      "color": "#D2FFEB",
+      "background": "#123D2A",
+      "border": "#45B582"
+    },
+    {
+      "label": "🇧🇷 ÁUDIO ✓ FONTE",
+      "match": "^Audio PT confirmado pela fonte$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "aiostreams-selos-pt",
+      "color": "#B5F4D6",
+      "background": "#142F26",
+      "border": "#3B9170"
+    },
+    {
+      "label": "🇧🇷 SUBS",
+      "match": "^Legenda PT confirmada$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "aiostreams-selos-pt",
+      "color": "#DEF4FF",
+      "background": "#143349",
+      "border": "#54A5D1"
+    },
+    {
+      "label": "🇧🇷 SUBS FORÇ.",
+      "match": "^Legenda PT forcada$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "aiostreams-selos-pt",
+      "color": "#DCE9FF",
+      "background": "#1E2E49",
+      "border": "#6B8FC4"
+    },
+    {
+      "label": "🇧🇷 ÁUDIO?",
+      "match": "^Possivel audio PT$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "aiostreams-selos-pt",
+      "color": "#FFE7AD",
+      "background": "#382B17",
+      "border": "#AE843D"
+    },
+    {
+      "label": "🇧🇷 SUBS?",
+      "match": "^Possivel legenda PT$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "aiostreams-selos-pt",
+      "color": "#FFE7AD",
+      "background": "#382B17",
+      "border": "#AE843D"
+    },
+    {
+      "label": "🇧🇷 INDÍCIO PT",
+      "match": "^Indicio PT sem trilha$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "aiostreams-selos-pt",
+      "color": "#E8DCC8",
+      "background": "#2D271E",
+      "border": "#80705A"
+    },
+    {
       "label": "T1",
       "match": "^T1$",
       "fields": [
@@ -320,77 +397,6 @@
       ],
       "image": "https://raw.githubusercontent.com/paulthery/aiostreams-badges/main/codec/10bit.png?v=6",
       "border": "#C6A56B"
-    },
-    {
-      "label": "VFF",
-      "match": "\\b(TRUEFRENCH|VFF|VF2)\\b",
-      "fields": [
-        "filename",
-        "folderName"
-      ],
-      "group": "fr",
-      "color": "#EDE8DF",
-      "background": "#2A2723",
-      "border": "#2A2723"
-    },
-    {
-      "label": "VFQ",
-      "match": "\\b(VFQ|VQ)\\b",
-      "fields": [
-        "filename",
-        "folderName"
-      ],
-      "group": "fr",
-      "color": "#EDE8DF",
-      "background": "#2A2723",
-      "border": "#2A2723"
-    },
-    {
-      "label": "VF",
-      "match": "^French$",
-      "fields": [
-        "languages"
-      ],
-      "group": "fr",
-      "color": "#EDE8DF",
-      "background": "#2A2723",
-      "border": "#2A2723"
-    },
-    {
-      "label": "VOSTFR",
-      "match": "\\b(VOST(FR)?|SUBFRENCH)\\b",
-      "fields": [
-        "filename",
-        "folderName"
-      ],
-      "group": "fr",
-      "color": "#8C8C8C",
-      "background": "#1C1B19",
-      "border": "#1C1B19"
-    },
-    {
-      "label": "VF+VO",
-      "match": "\\bmulti\\b|^dual audio$",
-      "fields": [
-        "languages",
-        "filename",
-        "folderName"
-      ],
-      "group": "lang",
-      "color": "#EDE8DF",
-      "background": "#2A2723",
-      "border": "#2A2723"
-    },
-    {
-      "label": "VO",
-      "match": "^(English|Original)$",
-      "fields": [
-        "languages"
-      ],
-      "group": "lang",
-      "color": "#EDE8DF",
-      "background": "#2A2723",
-      "border": "#2A2723"
     },
     {
       "label": "FINAL CUT",
