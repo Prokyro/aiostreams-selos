@@ -25,6 +25,18 @@
       "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio-fonte.svg?v=2"
     },
     {
+      "label": "🇧🇷 ÁUDIO?",
+      "match": "^Possivel audio PT$",
+      "fields": [
+        "rseMatched"
+      ],
+      "group": "aiostreams-selos-pt",
+      "color": "#FFE7AD",
+      "background": "#382B17",
+      "border": "#AE843D",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio-possivel.svg?v=2"
+    },
+    {
       "label": "🇧🇷 SUBS",
       "match": "^Legenda PT confirmada$",
       "fields": [
@@ -47,18 +59,6 @@
       "background": "#1E2E49",
       "border": "#6B8FC4",
       "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/subs-forcada.svg?v=2"
-    },
-    {
-      "label": "🇧🇷 ÁUDIO?",
-      "match": "^Possivel audio PT$",
-      "fields": [
-        "rseMatched"
-      ],
-      "group": "aiostreams-selos-pt",
-      "color": "#FFE7AD",
-      "background": "#382B17",
-      "border": "#AE843D",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio-possivel.svg?v=2"
     },
     {
       "label": "🇧🇷 SUBS?",
