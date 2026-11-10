@@ -117,7 +117,7 @@
     },
     {
       "label": "LQ",
-      "match": "^(LQ|LQ Title|Anime LQ|Asian LQ|Upscaled|FR FastSUB|FR LQ .*)$",
+      "match": "^LQ$",
       "fields": [
         "rseMatched"
       ],
@@ -267,9 +267,9 @@
     },
     {
       "label": "SDR",
-      "match": "^(?!.*(HDR|\\bDV\\b|\\bDoVi\\b|HLG|Dolby[ ._-]?Vision)).+$",
+      "match": "^SDR$",
       "fields": [
-        "filename"
+        "visualTags"
       ],
       "group": "hdr",
       "image": "https://raw.githubusercontent.com/paulthery/aiostreams-badges/main/hdr/sdr.png?v=6",
@@ -285,6 +285,55 @@
       ],
       "color": "#EDE8DF",
       "border": "#4A4A4A"
+    },
+    {
+      "label": "HEVC",
+      "match": "^(HEVC|H\\.?265|x265)$",
+      "fields": [
+        "encode"
+      ],
+      "group": "enc",
+      "image": "https://raw.githubusercontent.com/paulthery/aiostreams-badges/main/codec/h265.png?v=6",
+      "border": "#C6A56B"
+    },
+    {
+      "label": "AV1",
+      "match": "^AV1$",
+      "fields": [
+        "encode"
+      ],
+      "group": "enc",
+      "image": "https://raw.githubusercontent.com/paulthery/aiostreams-badges/main/codec/av1.png?v=6",
+      "border": "#C6A56B"
+    },
+    {
+      "label": "H.264",
+      "match": "^(AVC|H\\.?264|x264)$",
+      "fields": [
+        "encode"
+      ],
+      "group": "enc",
+      "image": "https://raw.githubusercontent.com/paulthery/aiostreams-badges/main/codec/h264.png?v=6",
+      "border": "#8C8C8C"
+    },
+    {
+      "label": "VP9",
+      "match": "^VP9$",
+      "fields": [
+        "encode"
+      ],
+      "group": "enc",
+      "image": "https://raw.githubusercontent.com/paulthery/aiostreams-badges/main/codec/vp9.png?v=6",
+      "border": "#8C8C8C"
+    },
+    {
+      "label": "10BIT",
+      "match": "^10bit$",
+      "fields": [
+        "visualTags"
+      ],
+      "image": "https://raw.githubusercontent.com/paulthery/aiostreams-badges/main/codec/10bit.png?v=6",
+      "border": "#C6A56B"
     },
     {
       "label": "ATMOS",
@@ -355,55 +404,6 @@
       "group": "ch",
       "color": "#8C8C8C",
       "border": "#2E2E2E"
-    },
-    {
-      "label": "HEVC",
-      "match": "^(HEVC|H\\.?265|x265)$",
-      "fields": [
-        "encode"
-      ],
-      "group": "enc",
-      "image": "https://raw.githubusercontent.com/paulthery/aiostreams-badges/main/codec/h265.png?v=6",
-      "border": "#C6A56B"
-    },
-    {
-      "label": "AV1",
-      "match": "^AV1$",
-      "fields": [
-        "encode"
-      ],
-      "group": "enc",
-      "image": "https://raw.githubusercontent.com/paulthery/aiostreams-badges/main/codec/av1.png?v=6",
-      "border": "#C6A56B"
-    },
-    {
-      "label": "H.264",
-      "match": "^(AVC|H\\.?264|x264)$",
-      "fields": [
-        "encode"
-      ],
-      "group": "enc",
-      "image": "https://raw.githubusercontent.com/paulthery/aiostreams-badges/main/codec/h264.png?v=6",
-      "border": "#8C8C8C"
-    },
-    {
-      "label": "VP9",
-      "match": "^VP9$",
-      "fields": [
-        "encode"
-      ],
-      "group": "enc",
-      "image": "https://raw.githubusercontent.com/paulthery/aiostreams-badges/main/codec/vp9.png?v=6",
-      "border": "#8C8C8C"
-    },
-    {
-      "label": "10BIT",
-      "match": "\\b10[ ._-]?bit\\b",
-      "fields": [
-        "filename"
-      ],
-      "image": "https://raw.githubusercontent.com/paulthery/aiostreams-badges/main/codec/10bit.png?v=6",
-      "border": "#C6A56B"
     },
     {
       "label": "FINAL CUT",
