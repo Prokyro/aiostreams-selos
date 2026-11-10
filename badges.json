@@ -2,7 +2,7 @@
   "badges": [
     {
       "label": "🇧🇷 ÁUDIO ✓",
-      "match": "^Audio PT verificado na faixa$",
+      "match": "^Audio PT confirmado$",
       "fields": [
         "rseMatched"
       ],
@@ -11,18 +11,6 @@
       "background": "#123D2A",
       "border": "#45B582",
       "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio.svg?v=2"
-    },
-    {
-      "label": "🇧🇷 ÁUDIO ✓ FONTE",
-      "match": "^Audio PT confirmado pela fonte$",
-      "fields": [
-        "rseMatched"
-      ],
-      "group": "aiostreams-selos-pt",
-      "color": "#B5F4D6",
-      "background": "#142F26",
-      "border": "#3B9170",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio-fonte.svg?v=2"
     },
     {
       "label": "🇧🇷 ÁUDIO?",
