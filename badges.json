@@ -37,18 +37,6 @@
       "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/subs.svg?v=2"
     },
     {
-      "label": "🇧🇷 SUBS FORÇ.",
-      "match": "^Legenda PT forcada$",
-      "fields": [
-        "rseMatched"
-      ],
-      "group": "aiostreams-selos-pt",
-      "color": "#DCE9FF",
-      "background": "#1E2E49",
-      "border": "#6B8FC4",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/subs-forcada.svg?v=2"
-    },
-    {
       "label": "🇧🇷 SUBS?",
       "match": "^Possivel legenda PT$",
       "fields": [
