@@ -13,18 +13,6 @@
       "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio.svg?v=2"
     },
     {
-      "label": "🇧🇷 ÁUDIO?",
-      "match": "^Possivel audio PT$",
-      "fields": [
-        "rseMatched"
-      ],
-      "group": "aiostreams-selos-pt",
-      "color": "#FFE7AD",
-      "background": "#382B17",
-      "border": "#AE843D",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio-possivel.svg?v=2"
-    },
-    {
       "label": "🇧🇷 SUBS",
       "match": "^Legenda PT confirmada$",
       "fields": [
@@ -35,18 +23,6 @@
       "background": "#143349",
       "border": "#54A5D1",
       "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/subs.svg?v=2"
-    },
-    {
-      "label": "🇧🇷 SUBS?",
-      "match": "^Possivel legenda PT$",
-      "fields": [
-        "rseMatched"
-      ],
-      "group": "aiostreams-selos-pt",
-      "color": "#FFE7AD",
-      "background": "#382B17",
-      "border": "#AE843D",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/subs-possivel.svg?v=2"
     },
     {
       "label": "🇧🇷 INDÍCIO PT",
