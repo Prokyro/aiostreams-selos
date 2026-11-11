@@ -37,46 +37,6 @@
       "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/indicio.svg?v=2"
     },
     {
-      "label": "T1",
-      "match": "^T1$",
-      "fields": [
-        "rseMatched"
-      ],
-      "group": "tier",
-      "color": "#0E0E0E",
-      "background": "#C6A56B",
-      "border": "#C6A56B"
-    },
-    {
-      "label": "T2",
-      "match": "^T2$",
-      "fields": [
-        "rseMatched"
-      ],
-      "group": "tier",
-      "color": "#EDE8DF",
-      "border": "#EDE8DF"
-    },
-    {
-      "label": "T3",
-      "match": "^T3$",
-      "fields": [
-        "rseMatched"
-      ],
-      "group": "tier",
-      "color": "#8C8C8C",
-      "border": "#4A4A4A"
-    },
-    {
-      "label": "LQ",
-      "match": "^LQ$",
-      "fields": [
-        "rseMatched"
-      ],
-      "color": "#8C8C8C",
-      "border": "#8C8C8C"
-    },
-    {
       "label": "4K",
       "match": "^(2160p|4k)$",
       "fields": [
