@@ -25,18 +25,6 @@
       "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/subs.svg?v=2"
     },
     {
-      "label": "🇧🇷 INDÍCIO PT",
-      "match": "^Indicio PT sem trilha$",
-      "fields": [
-        "rseMatched"
-      ],
-      "group": "aiostreams-selos-pt",
-      "color": "#E8DCC8",
-      "background": "#2D271E",
-      "border": "#80705A",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/indicio.svg?v=2"
-    },
-    {
       "label": "4K",
       "match": "^(2160p|4k)$",
       "fields": [
