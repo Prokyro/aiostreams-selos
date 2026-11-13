@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="16" viewBox="0 0 23 16">
+  <defs>
+    <linearGradient id="face" x2=".22" y2="1">
+      <stop stop-color="#3B4350"/>
+      <stop offset=".45" stop-color="#292F3A"/>
+      <stop offset=".49" stop-color="#292F3A"/>
+      <stop offset="1" stop-color="#171C24"/>
+    </linearGradient>
+    <linearGradient id="rim" x2=".4" y2="1">
+      <stop stop-color="#9DAABF"/>
+      <stop offset=".42" stop-color="#525F73"/>
+      <stop offset=".76" stop-color="#525F73"/>
+      <stop offset="1" stop-color="#9DAABF"/>
+    </linearGradient>
+    <linearGradient id="sheen">
+      <stop stop-color="#FFF" stop-opacity=".44"/>
+      <stop offset=".57" stop-color="#FFF" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x=".2" y=".65" width="22.6" height="15.3" rx="3.4" fill="#000" opacity=".75"/>
+  <rect x=".55" y=".5" width="21.9" height="14.45" rx="3.15" fill="url(#face)" stroke="url(#rim)" stroke-width=".95"/>
+  <path d="M3.9 1.6h15.2" fill="none" stroke="url(#sheen)" stroke-width=".65" stroke-linecap="round"/>
+  <g transform="translate(4.204156 12.55) scale(0.013 -0.013)" fill="#E7EDF7">
+    <path transform="translate(0)" d="M409 10 386 108Q385 112 381 112H194Q190 112 189 108L166 10Q163 0 153 0H32Q19 0 22 13L202 690Q205 700 216 700H361Q372 700 375 690L555 13L556 9Q556 0 545 0H423Q412 0 409 10ZM221 221H353Q355 221 357 222.5Q359 224 358 227L289 517Q288 521 286 521Q284 521 283 517L216 227Q215 224 217 222.5Q219 221 221 221Z"/>
+    <path transform="translate(595)" d="M53 12V688Q53 693 56.5 696.5Q60 700 65 700H280Q347 700 398.5 675Q450 650 478 604Q506 558 506 497V203Q506 142 478 96Q450 50 398.5 25Q347 0 280 0H65Q60 0 56.5 3.5Q53 7 53 12ZM199 121 281 122Q318 122 341 148.5Q364 175 365 219V481Q365 526 342 552.5Q319 579 281 579H199Q194 579 194 574V126Q194 121 199 121Z"/>
+  </g>
+</svg>

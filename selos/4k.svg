@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16">
+  <defs>
+    <linearGradient id="face" x2=".22" y2="1">
+      <stop stop-color="#FFF9E9"/>
+      <stop offset=".45" stop-color="#E0C89A"/>
+      <stop offset=".49" stop-color="#E0C89A"/>
+      <stop offset="1" stop-color="#B89A69"/>
+    </linearGradient>
+    <linearGradient id="rim" x2=".4" y2="1">
+      <stop stop-color="#FFF8DE"/>
+      <stop offset=".42" stop-color="#A68453"/>
+      <stop offset=".76" stop-color="#A68453"/>
+      <stop offset="1" stop-color="#FFF8DE"/>
+    </linearGradient>
+    <linearGradient id="sheen">
+      <stop stop-color="#FFF" stop-opacity=".44"/>
+      <stop offset=".57" stop-color="#FFF" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x=".2" y=".65" width="23.6" height="15.3" rx="3.4" fill="#382913" opacity=".75"/>
+  <rect x=".55" y=".5" width="22.9" height="14.45" rx="3.15" fill="url(#face)" stroke="url(#rim)" stroke-width=".95"/>
+  <path d="M3.9 1.6h16.2" fill="none" stroke="url(#sheen)" stroke-width=".65" stroke-linecap="round"/>
+  <g transform="translate(3.942857 13) scale(0.014286 -0.014286)" fill="#241B10">
+    <path transform="translate(0)" d="M514 293V190Q514 185 510.5 181.5Q507 178 502 178H465Q460 178 460 173V12Q460 7 456.5 3.5Q453 0 448 0H331Q326 0 322.5 3.5Q319 7 319 12V173Q319 178 314 178H35Q30 178 26.5 181.5Q23 185 23 190V271Q23 277 26 286L182 691Q185 700 196 700H321Q336 700 331 686L187 311Q186 305 191 305H314Q319 305 319 310V424Q319 429 322.5 432.5Q326 436 331 436H448Q453 436 456.5 432.5Q460 429 460 424V310Q460 305 465 305H502Q507 305 510.5 301.5Q514 298 514 293Z"/>
+    <path transform="translate(562)" d="M53 12V688Q53 693 56.5 696.5Q60 700 65 700H182Q187 700 190.5 696.5Q194 693 194 688V422Q194 419 196.5 418Q199 417 200 420L379 692Q384 700 393 700H522Q529 700 531.5 696Q534 692 530 686L345 399Q344 396 345 392L541 14Q543 10 543 8Q543 0 532 0H404Q395 0 390 9L248 283Q247 286 245 286Q243 286 241 283L196 218Q194 214 194 212V12Q194 7 190.5 3.5Q187 0 182 0H65Q60 0 56.5 3.5Q53 7 53 12Z"/>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" viewBox="0 0 30 16">
+  <defs>
+    <linearGradient id="face" x2=".22" y2="1">
+      <stop stop-color="#3B4350"/>
+      <stop offset=".45" stop-color="#292F3A"/>
+      <stop offset=".49" stop-color="#292F3A"/>
+      <stop offset="1" stop-color="#171C24"/>
+    </linearGradient>
+    <linearGradient id="rim" x2=".4" y2="1">
+      <stop stop-color="#9DAABF"/>
+      <stop offset=".42" stop-color="#525F73"/>
+      <stop offset=".76" stop-color="#525F73"/>
+      <stop offset="1" stop-color="#9DAABF"/>
+    </linearGradient>
+    <linearGradient id="sheen">
+      <stop stop-color="#FFF" stop-opacity=".44"/>
+      <stop offset=".57" stop-color="#FFF" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x=".2" y=".65" width="29.6" height="15.3" rx="3.4" fill="#000" opacity=".75"/>
+  <rect x=".55" y=".5" width="28.9" height="14.45" rx="3.15" fill="url(#face)" stroke="url(#rim)" stroke-width=".95"/>
+  <path d="M3.9 1.6h22.2" fill="none" stroke="url(#sheen)" stroke-width=".65" stroke-linecap="round"/>
+  <g transform="translate(4.076106 12.55) scale(0.012981 -0.012981)" fill="#E7EDF7">
+    <path transform="translate(0)" d="M508 486Q508 424 482.5 376.5Q457 329 410.5 303Q364 277 304 277H196Q191 277 191 272V12Q191 7 187.5 3.5Q184 0 179 0H62Q57 0 53.5 3.5Q50 7 50 12V689Q50 694 53.5 697.5Q57 701 62 701H304Q364 701 410.5 674Q457 647 482.5 598Q508 549 508 486ZM367 483Q367 527 343.5 553Q320 579 281 579H196Q191 579 191 574V394Q191 389 196 389H281Q320 389 343.5 414.5Q367 440 367 483Z"/>
+    <path transform="translate(549)" d="M53 12V688Q53 693 56.5 696.5Q60 700 65 700H182Q187 700 190.5 696.5Q194 693 194 688V422Q194 419 196.5 418Q199 417 200 420L379 692Q384 700 393 700H522Q529 700 531.5 696Q534 692 530 686L345 399Q344 396 345 392L541 14Q543 10 543 8Q543 0 532 0H404Q395 0 390 9L248 283Q247 286 245 286Q243 286 241 283L196 218Q194 214 194 212V12Q194 7 190.5 3.5Q187 0 182 0H65Q60 0 56.5 3.5Q53 7 53 12Z"/>
+    <path transform="translate(1125)" d="M508 486Q508 424 482.5 376.5Q457 329 410.5 303Q364 277 304 277H196Q191 277 191 272V12Q191 7 187.5 3.5Q184 0 179 0H62Q57 0 53.5 3.5Q50 7 50 12V689Q50 694 53.5 697.5Q57 701 62 701H304Q364 701 410.5 674Q457 647 482.5 598Q508 549 508 486ZM367 483Q367 527 343.5 553Q320 579 281 579H196Q191 579 191 574V394Q191 389 196 389H281Q320 389 343.5 414.5Q367 440 367 483Z"/>
+  </g>
+</svg>

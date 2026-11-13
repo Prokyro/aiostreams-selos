@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="16" viewBox="0 0 27 16">
+  <defs>
+    <linearGradient id="face" x2=".22" y2="1">
+      <stop stop-color="#394B63"/>
+      <stop offset=".45" stop-color="#222F44"/>
+      <stop offset=".49" stop-color="#222F44"/>
+      <stop offset="1" stop-color="#151B2A"/>
+    </linearGradient>
+    <linearGradient id="rim" x2=".4" y2="1">
+      <stop stop-color="#9FB8E3"/>
+      <stop offset=".42" stop-color="#586C93"/>
+      <stop offset=".76" stop-color="#586C93"/>
+      <stop offset="1" stop-color="#9FB8E3"/>
+    </linearGradient>
+    <linearGradient id="sheen">
+      <stop stop-color="#FFF" stop-opacity=".44"/>
+      <stop offset=".57" stop-color="#FFF" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x=".2" y=".65" width="26.6" height="15.3" rx="3.4" fill="#000" opacity=".75"/>
+  <rect x=".55" y=".5" width="25.9" height="14.45" rx="3.15" fill="url(#face)" stroke="url(#rim)" stroke-width=".95"/>
+  <path d="M3.9 1.6h19.2" fill="none" stroke="url(#sheen)" stroke-width=".65" stroke-linecap="round"/>
+  <g transform="translate(3.994156 12.55) scale(0.013 -0.013)" fill="#E9F2FF">
+    <path transform="translate(0)" d="M409 10 386 108Q385 112 381 112H194Q190 112 189 108L166 10Q163 0 153 0H32Q19 0 22 13L202 690Q205 700 216 700H361Q372 700 375 690L555 13L556 9Q556 0 545 0H423Q412 0 409 10ZM221 221H353Q355 221 357 222.5Q359 224 358 227L289 517Q288 521 286 521Q284 521 283 517L216 227Q215 224 217 222.5Q219 221 221 221Z"/>
+    <path transform="translate(595)" d="M199 10 25 687V691Q25 700 36 700H163Q174 700 176 689L277 224Q278 220 280 220Q282 220 283 224L383 689Q385 700 396 700H519Q533 700 530 687L354 10Q351 0 340 0H213Q202 0 199 10Z"/>
+    <path transform="translate(1168)" d="M140 700H261Q266 700 269.5 696.5Q273 693 273 688V12Q273 7 269.5 3.5Q266 0 261 0H144Q139 0 135.5 3.5Q132 7 132 12V558Q132 560 130.5 562Q129 564 127 563L38 546L34 545Q25 545 25 556L22 642Q22 652 31 656L125 697Q133 700 140 700Z"/>
+  </g>
+</svg>

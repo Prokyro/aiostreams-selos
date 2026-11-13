@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="16" viewBox="0 0 23 16">
+  <defs>
+    <linearGradient id="face" x2=".22" y2="1">
+      <stop stop-color="#3B4350"/>
+      <stop offset=".45" stop-color="#292F3A"/>
+      <stop offset=".49" stop-color="#292F3A"/>
+      <stop offset="1" stop-color="#171C24"/>
+    </linearGradient>
+    <linearGradient id="rim" x2=".4" y2="1">
+      <stop stop-color="#9DAABF"/>
+      <stop offset=".42" stop-color="#525F73"/>
+      <stop offset=".76" stop-color="#525F73"/>
+      <stop offset="1" stop-color="#9DAABF"/>
+    </linearGradient>
+    <linearGradient id="sheen">
+      <stop stop-color="#FFF" stop-opacity=".44"/>
+      <stop offset=".57" stop-color="#FFF" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x=".2" y=".65" width="22.6" height="15.3" rx="3.4" fill="#000" opacity=".75"/>
+  <rect x=".55" y=".5" width="21.9" height="14.45" rx="3.15" fill="url(#face)" stroke="url(#rim)" stroke-width=".95"/>
+  <path d="M3.9 1.6h15.2" fill="none" stroke="url(#sheen)" stroke-width=".65" stroke-linecap="round"/>
+  <g transform="translate(4.487796 12.435774) scale(0.012692 -0.012692)" fill="#E7EDF7">
+    <path transform="translate(0)" d="M41 217V483Q41 550 70 601Q99 652 151.5 680Q204 708 273 708Q342 708 395 680Q448 652 477 601Q506 550 506 483V217Q506 149 477 98Q448 47 395 19Q342 -9 273 -9Q204 -9 151.5 19Q99 47 70 98Q41 149 41 217ZM365 211V487Q365 532 340 559.5Q315 587 273 587Q232 587 207 559.5Q182 532 182 487V211Q182 167 207 139.5Q232 112 273 112Q315 112 340 139.5Q365 167 365 211Z"/>
+    <path transform="translate(565)" d="M41 212V490Q41 555 69.5 604.5Q98 654 150 681Q202 708 270 708Q338 708 390 681.5Q442 655 470.5 607Q499 559 499 495V490Q499 485 495.5 481Q492 477 487 477L370 472Q358 472 358 483V496Q358 537 334 562Q310 587 270 587Q230 587 206 562Q182 537 182 496V203Q182 162 206 137.5Q230 113 270 113Q310 113 334 137.5Q358 162 358 203V216Q358 227 370 227L487 222Q492 222 495.5 218.5Q499 215 499 210V207Q499 143 470.5 94Q442 45 390 18.5Q338 -8 270 -8Q202 -8 150 19Q98 46 69.5 96Q41 146 41 212Z"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="16" viewBox="0 0 23 16">
+  <defs>
+    <linearGradient id="face" x2=".22" y2="1">
+      <stop stop-color="#3B4350"/>
+      <stop offset=".45" stop-color="#292F3A"/>
+      <stop offset=".49" stop-color="#292F3A"/>
+      <stop offset="1" stop-color="#171C24"/>
+    </linearGradient>
+    <linearGradient id="rim" x2=".4" y2="1">
+      <stop stop-color="#9DAABF"/>
+      <stop offset=".42" stop-color="#525F73"/>
+      <stop offset=".76" stop-color="#525F73"/>
+      <stop offset="1" stop-color="#9DAABF"/>
+    </linearGradient>
+    <linearGradient id="sheen">
+      <stop stop-color="#FFF" stop-opacity=".44"/>
+      <stop offset=".57" stop-color="#FFF" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x=".2" y=".65" width="22.6" height="15.3" rx="3.4" fill="#000" opacity=".75"/>
+  <rect x=".55" y=".5" width="21.9" height="14.45" rx="3.15" fill="url(#face)" stroke="url(#rim)" stroke-width=".95"/>
+  <path d="M3.9 1.6h15.2" fill="none" stroke="url(#sheen)" stroke-width=".65" stroke-linecap="round"/>
+  <g transform="translate(4.1355 12.55) scale(0.013 -0.013)" fill="#E7EDF7">
+    <path transform="translate(0)" d="M53 12V688Q53 693 56.5 696.5Q60 700 65 700H280Q347 700 398.5 675Q450 650 478 604Q506 558 506 497V203Q506 142 478 96Q450 50 398.5 25Q347 0 280 0H65Q60 0 56.5 3.5Q53 7 53 12ZM199 121 281 122Q318 122 341 148.5Q364 175 365 219V481Q365 526 342 552.5Q319 579 281 579H199Q194 579 194 574V126Q194 121 199 121Z"/>
+    <path transform="translate(565)" d="M368 10 267 286Q265 290 262 290H199Q194 290 194 285V12Q194 7 190.5 3.5Q187 0 182 0H65Q60 0 56.5 3.5Q53 7 53 12V688Q53 693 56.5 696.5Q60 700 65 700H309Q368 700 414 673.5Q460 647 485 599Q510 551 510 489Q510 425 482 378Q454 331 403 308Q398 306 400 301L514 14Q515 12 515 9Q515 0 504 0H382Q371 0 368 10ZM194 574V403Q194 398 199 398H286Q323 398 346 422.5Q369 447 369 488Q369 530 346 554.5Q323 579 286 579H199Q194 579 194 574Z"/>
+  </g>
+</svg>
