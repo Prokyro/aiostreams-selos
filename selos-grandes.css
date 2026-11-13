@@ -1,0 +1,28 @@
+/* Selos AIOStreams */
+[data-ui="version-badges"] {
+  gap: .3rem;
+}
+
+[data-ui="version-badges"] > [data-ui="version-badge"] {
+  height: 1.875rem;
+  padding-inline: .125rem;
+  font-size: .8125rem;
+}
+
+[data-ui="version-badges"] > [data-ui="version-badge"] > img {
+  height: 1.625rem;
+  max-height: none;
+  max-width: 9rem;
+}
+
+@media (min-width: 90rem) {
+  [data-ui="version-badges"] > [data-ui="version-badge"] {
+    height: 2.25rem;
+    font-size: .9375rem;
+  }
+
+  [data-ui="version-badges"] > [data-ui="version-badge"] > img {
+    height: 2rem;
+    max-width: 11rem;
+  }
+}

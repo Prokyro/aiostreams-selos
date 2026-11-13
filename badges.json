@@ -8,7 +8,7 @@
       ],
       "group": "aiostreams-selos-pt",
       "color": "#E1FFEF",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio.png?v=4"
     },
     {
       "label": "Legendas em português do Brasil",
@@ -18,17 +18,17 @@
       ],
       "group": "aiostreams-selos-pt",
       "color": "#EAF8FF",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/subs.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/subs.png?v=4"
     },
     {
-      "label": "4K",
+      "label": "4K Ultra HD",
       "match": "^(2160p|4k)$",
       "fields": [
         "resolution"
       ],
       "group": "res",
       "color": "#FFE8AB",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/4k.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/uhd.png?v=4"
     },
     {
       "label": "1080",
@@ -38,7 +38,7 @@
       ],
       "group": "res",
       "color": "#F4F7FF",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/1080.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/1080.svg?v=4"
     },
     {
       "label": "720",
@@ -48,7 +48,7 @@
       ],
       "group": "res",
       "color": "#F4F7FF",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/720.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/720.svg?v=4"
     },
     {
       "label": "576",
@@ -58,7 +58,7 @@
       ],
       "group": "res",
       "color": "#F4F7FF",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/576.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/576.svg?v=4"
     },
     {
       "label": "480",
@@ -68,7 +68,7 @@
       ],
       "group": "res",
       "color": "#F4F7FF",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/480.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/480.svg?v=4"
     },
     {
       "label": "REMUX",
@@ -78,17 +78,17 @@
       ],
       "group": "src",
       "color": "#FFE4C9",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/remux.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/remux.svg?v=4"
     },
     {
-      "label": "BLURAY",
+      "label": "Blu-ray Disc",
       "match": "^blu-?ray$",
       "fields": [
         "quality"
       ],
       "group": "src",
       "color": "#FFE4C9",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/bluray.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/bluray.png?v=4"
     },
     {
       "label": "WEB-DL",
@@ -98,7 +98,7 @@
       ],
       "group": "src",
       "color": "#FFE4C9",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/web-dl.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/web-dl.svg?v=4"
     },
     {
       "label": "WEBRIP",
@@ -108,16 +108,16 @@
       ],
       "group": "src",
       "color": "#FFE4C9",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/webrip.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/webrip.svg?v=4"
     },
     {
-      "label": "HDR+DV",
+      "label": "HDR + Dolby Vision",
       "match": "HDR\\+DV|(?=.*\\bHDR)(?=.*\\bDV\\b)",
       "fields": [
         "visualTags"
       ],
       "group": "hdr",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/hdr-plus-dv.svg?v=3",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/hdr-dolby-vision.png?v=4",
       "color": "#FFE8AB"
     },
     {
@@ -127,7 +127,7 @@
         "visualTags"
       ],
       "group": "hdr",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/hdr10-plus.svg?v=3",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/hdr10plus-white.png?v=4",
       "color": "#FFE8AB"
     },
     {
@@ -137,17 +137,17 @@
         "visualTags"
       ],
       "group": "hdr",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/hdr.svg?v=3",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/hdr.svg?v=4",
       "color": "#FFE8AB"
     },
     {
-      "label": "DV",
+      "label": "Dolby Vision",
       "match": "\\bDV\\b",
       "fields": [
         "visualTags"
       ],
       "group": "hdr",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/dv.svg?v=3",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/vision.png?v=4",
       "color": "#FFE8AB"
     },
     {
@@ -157,7 +157,7 @@
         "visualTags"
       ],
       "group": "hdr",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/hlg.svg?v=3",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/hlg.svg?v=4",
       "color": "#FFE8AB"
     },
     {
@@ -167,7 +167,7 @@
         "visualTags"
       ],
       "group": "hdr",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/sdr.svg?v=3",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/sdr.svg?v=4",
       "color": "#FFE8AB"
     },
     {
@@ -179,7 +179,7 @@
         "filename"
       ],
       "color": "#FFE8AB",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/imax.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/imax.png?v=4"
     },
     {
       "label": "HEVC",
@@ -188,7 +188,7 @@
         "encode"
       ],
       "group": "enc",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/hevc.svg?v=3",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/hevc.svg?v=4",
       "color": "#E9F2FF"
     },
     {
@@ -198,7 +198,7 @@
         "encode"
       ],
       "group": "enc",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/av1.svg?v=3",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/av1.png?v=4",
       "color": "#E9F2FF"
     },
     {
@@ -208,7 +208,7 @@
         "encode"
       ],
       "group": "enc",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/h-264.svg?v=3",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/h-264.svg?v=4",
       "color": "#E9F2FF"
     },
     {
@@ -218,7 +218,7 @@
         "encode"
       ],
       "group": "enc",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/vp9.svg?v=3",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/vp9.svg?v=4",
       "color": "#E9F2FF"
     },
     {
@@ -227,18 +227,18 @@
       "fields": [
         "visualTags"
       ],
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/10bit.svg?v=3",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/10bit.svg?v=4",
       "color": "#FFE8AB"
     },
     {
-      "label": "ATMOS",
+      "label": "Dolby Atmos",
       "match": "atmos",
       "fields": [
         "audioTags"
       ],
       "group": "audio",
       "color": "#DFFAF4",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/atmos.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/atmos.png?v=4"
     },
     {
       "label": "DTS:X",
@@ -248,37 +248,37 @@
       ],
       "group": "audio",
       "color": "#DFFAF4",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/dts-x.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/dtsx.png?v=4"
     },
     {
-      "label": "TRUEHD",
+      "label": "Dolby TrueHD",
       "match": "truehd",
       "fields": [
         "audioTags"
       ],
       "group": "audio",
       "color": "#DFFAF4",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/truehd.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/truehd.png?v=4"
     },
     {
-      "label": "DTS-HD MA",
+      "label": "DTS-HD Master Audio",
       "match": "dts-hd ?ma",
       "fields": [
         "audioTags"
       ],
       "group": "audio",
       "color": "#DFFAF4",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/dts-hd-ma.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/dtshd.png?v=4"
     },
     {
-      "label": "DD+",
+      "label": "Dolby Digital Plus",
       "match": "^dd\\+$",
       "fields": [
         "audioTags"
       ],
       "group": "audio",
       "color": "#DFFAF4",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/dd-plus.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/ddplus.png?v=4"
     },
     {
       "label": "7.1",
@@ -288,7 +288,7 @@
       ],
       "group": "ch",
       "color": "#DFFAF4",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/7-1.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/7-1.svg?v=4"
     },
     {
       "label": "5.1",
@@ -298,7 +298,7 @@
       ],
       "group": "ch",
       "color": "#DFFAF4",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/5-1.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/5-1.svg?v=4"
     },
     {
       "label": "FINAL CUT",
@@ -308,7 +308,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/final-cut.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/final-cut.svg?v=4"
     },
     {
       "label": "DIR CUT",
@@ -319,7 +319,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/dir-cut.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/dir-cut.svg?v=4"
     },
     {
       "label": "REDUX",
@@ -329,7 +329,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/redux.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/redux.svg?v=4"
     },
     {
       "label": "ROGUE CUT",
@@ -339,7 +339,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/rogue-cut.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/rogue-cut.svg?v=4"
     },
     {
       "label": "ULTIMATE",
@@ -350,7 +350,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/ultimate.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/ultimate.svg?v=4"
     },
     {
       "label": "EXTENDED",
@@ -361,7 +361,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/extended.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/extended.svg?v=4"
     },
     {
       "label": "ROADSHOW",
@@ -371,7 +371,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/roadshow.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/roadshow.svg?v=4"
     },
     {
       "label": "UNRATED",
@@ -381,7 +381,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/unrated.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/unrated.svg?v=4"
     },
     {
       "label": "UNCUT",
@@ -392,7 +392,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/uncut.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/uncut.svg?v=4"
     },
     {
       "label": "UNCENSORED",
@@ -402,7 +402,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/uncensored.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/uncensored.svg?v=4"
     },
     {
       "label": "DEFINITIVE",
@@ -412,7 +412,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/definitive.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/definitive.svg?v=4"
     },
     {
       "label": "SPECIAL ED",
@@ -422,7 +422,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/special-ed.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/special-ed.svg?v=4"
     },
     {
       "label": "INTL CUT",
@@ -432,7 +432,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/intl-cut.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/intl-cut.svg?v=4"
     },
     {
       "label": "ALT CUT",
@@ -442,7 +442,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/alt-cut.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/alt-cut.svg?v=4"
     },
     {
       "label": "ASSEMBLY",
@@ -452,7 +452,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/assembly.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/assembly.svg?v=4"
     },
     {
       "label": "PRODUCER CUT",
@@ -462,7 +462,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/producer-cut.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/producer-cut.svg?v=4"
     },
     {
       "label": "WORKPRINT",
@@ -472,7 +472,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/workprint.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/workprint.svg?v=4"
     },
     {
       "label": "TV CUT",
@@ -482,7 +482,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/tv-cut.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/tv-cut.svg?v=4"
     },
     {
       "label": "B&W",
@@ -492,7 +492,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/b-and-w.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/b-and-w.svg?v=4"
     },
     {
       "label": "DESPECIALIZED",
@@ -502,7 +502,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/despecialized.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/despecialized.svg?v=4"
     },
     {
       "label": "ANNIVERSARY",
@@ -512,7 +512,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/anniversary.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/anniversary.svg?v=4"
     },
     {
       "label": "COLLECTOR",
@@ -522,7 +522,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/collector.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/collector.svg?v=4"
     },
     {
       "label": "DIAMOND",
@@ -532,7 +532,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/diamond.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/diamond.svg?v=4"
     },
     {
       "label": "PLATINUM",
@@ -542,7 +542,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/platinum.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/platinum.svg?v=4"
     },
     {
       "label": "THEATRICAL",
@@ -552,7 +552,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/theatrical.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/theatrical.svg?v=4"
     },
     {
       "label": "REMASTERED",
@@ -563,10 +563,10 @@
       ],
       "group": "rem",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/remastered.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/remastered.svg?v=4"
     },
     {
-      "label": "CRITERION",
+      "label": "The Criterion Collection",
       "match": "^Criterion Collection$|\\bcriterion\\b",
       "fields": [
         "editions",
@@ -574,7 +574,7 @@
         "folderName"
       ],
       "color": "#FFE8AB",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/criterion.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/criterion-wordmark.png?v=4"
     },
     {
       "label": "OPEN MATTE",
@@ -584,7 +584,7 @@
         "folderName"
       ],
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/open-matte.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/open-matte.svg?v=4"
     },
     {
       "label": "PROPER",
@@ -593,7 +593,7 @@
         "filename"
       ],
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/proper.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/proper.svg?v=4"
     },
     {
       "label": "PACK",
@@ -603,187 +603,187 @@
         "folderName"
       ],
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/pack.svg?v=3"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/pack.svg?v=4"
     },
     {
-      "label": "RD",
+      "label": "Real-Debrid",
       "match": "^Ready RD$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-services",
-      "color": "#E7EDF7",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/rd.svg?v=3"
+      "color": "#F0F4F9",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/realdebrid.png?v=4"
     },
     {
-      "label": "TB",
+      "label": "TorBox",
       "match": "^Ready TB$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-services",
-      "color": "#E7EDF7",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/tb.svg?v=3"
+      "color": "#F0F4F9",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/torbox.png?v=4"
     },
     {
-      "label": "AD",
+      "label": "AllDebrid",
       "match": "^Ready AD$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-services",
-      "color": "#E7EDF7",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/ad.svg?v=3"
+      "color": "#F0F4F9",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/alldebrid.png?v=4"
     },
     {
-      "label": "EN",
+      "label": "Easynews",
       "match": "^Ready EN$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-services",
-      "color": "#E7EDF7",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/en.svg?v=3"
+      "color": "#F0F4F9",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/easynews.png?v=4"
     },
     {
-      "label": "PM",
+      "label": "Premiumize",
       "match": "^Ready PM$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-services",
-      "color": "#E7EDF7",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/pm.svg?v=3"
+      "color": "#F0F4F9",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/premiumize.png?v=4"
     },
     {
-      "label": "DL",
+      "label": "Debrid-Link",
       "match": "^Ready DL$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-services",
-      "color": "#E7EDF7",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/dl.svg?v=3"
+      "color": "#F0F4F9",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/debridlink.png?v=4"
     },
     {
-      "label": "SN",
+      "label": "Stremio NNTP",
       "match": "^SNNTP$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-services",
-      "color": "#E7EDF7",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/sn.svg?v=3"
+      "color": "#F0F4F9",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/stremio-nntp.png?v=4"
     },
     {
-      "label": "ND",
+      "label": "NzbDAV",
       "match": "^NZD$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-services",
-      "color": "#E7EDF7",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/nd.svg?v=3"
+      "color": "#F0F4F9",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/nzbdav.png?v=4"
     },
     {
-      "label": "AM",
+      "label": "AltMount",
       "match": "^ALT$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-services",
-      "color": "#E7EDF7",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/am.svg?v=3"
+      "color": "#F0F4F9",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/altmount.png?v=4"
     },
     {
-      "label": "OC",
+      "label": "Offcloud",
       "match": "^Ready OC$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-services",
-      "color": "#E7EDF7",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/oc.svg?v=3"
+      "color": "#F0F4F9",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/offcloud.png?v=4"
     },
     {
-      "label": "P.IO",
+      "label": "put.io",
       "match": "^Ready PUT$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-services",
-      "color": "#E7EDF7",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/p-io.svg?v=3"
+      "color": "#F0F4F9",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/putio.png?v=4"
     },
     {
-      "label": "ED",
+      "label": "EasyDebrid",
       "match": "^Ready ED$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-services",
-      "color": "#E7EDF7",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/ed.svg?v=3"
+      "color": "#F0F4F9",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/easydebrid.png?v=4"
     },
     {
-      "label": "DR",
+      "label": "Debrider",
       "match": "^Ready DBR$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-services",
-      "color": "#E7EDF7",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/dr.svg?v=3"
+      "color": "#F0F4F9",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/debrider.png?v=4"
     },
     {
-      "label": "PKP",
+      "label": "PikPak",
       "match": "^Ready PK$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-services",
-      "color": "#E7EDF7",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/pkp.svg?v=3"
+      "color": "#F0F4F9",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/pikpak.png?v=4"
     },
     {
-      "label": "SEEDR",
+      "label": "Seedr",
       "match": "^Ready SEEDR$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-services",
-      "color": "#E7EDF7",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/seedr.svg?v=3"
+      "color": "#F0F4F9",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/seedr.png?v=4"
     },
     {
-      "label": "ST",
+      "label": "StremThru Newz",
       "match": "^STNEWZ$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-services",
-      "color": "#E7EDF7",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/st.svg?v=3"
+      "color": "#F0F4F9",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/stremthru-newz.png?v=4"
     },
     {
-      "label": "AIO",
+      "label": "AIOStreams",
       "match": "^AIO$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-services",
-      "color": "#E7EDF7",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/aio.svg?v=3"
+      "color": "#F0F4F9",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/aiostreams.png?v=4"
     },
     {
-      "label": "TR",
+      "label": "Torrin",
       "match": "^Ready TORRIN$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-services",
-      "color": "#E7EDF7",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/tr.svg?v=3"
+      "color": "#F0F4F9",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/torrin.png?v=4"
     }
   ]
 }
