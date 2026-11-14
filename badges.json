@@ -8,7 +8,7 @@
       ],
       "group": "aiostreams-selos-pt",
       "color": "#E1FFEF",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio-compact.svg?v=5"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio-corner.svg"
     },
     {
       "label": "Legendas em português do Brasil",
@@ -18,7 +18,7 @@
       ],
       "group": "aiostreams-selos-pt",
       "color": "#EAF8FF",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/subs-compact.svg?v=5"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/subs-corner.svg"
     },
     {
       "label": "4K Ultra HD",
@@ -38,7 +38,7 @@
       ],
       "group": "res",
       "color": "#F4F7FF",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/full-hd.png?v=5"
+      "image": "https://raw.githubusercontent.com/IaemTary/nuvio-badges/fb17a15cd292783326d72b0f38a8b373a2b1bf30/Resolution/1080p.png"
     },
     {
       "label": "720",
@@ -78,7 +78,7 @@
       ],
       "group": "src",
       "color": "#FFE4C9",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/remux.svg?v=5"
+      "image": "https://raw.githubusercontent.com/kingsizew/badges/fdd3479bacf2232e431acda4b59b2858b509d2df/badge-images/quality/remux-gold.png"
     },
     {
       "label": "Blu-ray Disc",
@@ -188,7 +188,7 @@
         "encode"
       ],
       "group": "enc",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/hevc.svg?v=5",
+      "image": "https://raw.githubusercontent.com/kingsizew/badges/fdd3479bacf2232e431acda4b59b2858b509d2df/badge-images/encoder/hevc.png",
       "color": "#E9F2FF"
     },
     {
@@ -208,7 +208,7 @@
         "encode"
       ],
       "group": "enc",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/h-264.svg?v=5",
+      "image": "https://raw.githubusercontent.com/kingsizew/badges/fdd3479bacf2232e431acda4b59b2858b509d2df/badge-images/encoder/avc.png",
       "color": "#E9F2FF"
     },
     {
@@ -227,7 +227,7 @@
       "fields": [
         "visualTags"
       ],
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/10bit.svg?v=5",
+      "image": "https://raw.githubusercontent.com/kingsizew/badges/fdd3479bacf2232e431acda4b59b2858b509d2df/badge-images/visual/10bit.png",
       "color": "#FFE8AB"
     },
     {
@@ -288,7 +288,7 @@
       ],
       "group": "ch",
       "color": "#DFFAF4",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/7-1.svg?v=5"
+      "image": "https://raw.githubusercontent.com/kingsizew/badges/fdd3479bacf2232e431acda4b59b2858b509d2df/badge-images/channels/7-1.png"
     },
     {
       "label": "5.1",
@@ -298,7 +298,7 @@
       ],
       "group": "ch",
       "color": "#DFFAF4",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/5-1.svg?v=5"
+      "image": "https://raw.githubusercontent.com/kingsizew/badges/fdd3479bacf2232e431acda4b59b2858b509d2df/badge-images/channels/5-1.png"
     },
     {
       "label": "FINAL CUT",
@@ -361,7 +361,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/extended.svg?v=5"
+      "image": "https://raw.githubusercontent.com/IaemTary/nuvio-badges/fb17a15cd292783326d72b0f38a8b373a2b1bf30/Edition/extended.png"
     },
     {
       "label": "ROADSHOW",
@@ -552,7 +552,7 @@
       ],
       "group": "ed",
       "color": "#EEE9FA",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/theatrical.svg?v=5"
+      "image": "https://raw.githubusercontent.com/kingsizew/badges/fdd3479bacf2232e431acda4b59b2858b509d2df/badge-images/special-tags/theatrical-light-blue.png"
     },
     {
       "label": "REMASTERED",
