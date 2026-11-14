@@ -166,7 +166,6 @@
       "fields": [
         "visualTags"
       ],
-      "group": "hdr",
       "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/sdr.svg?v=5",
       "color": "#FFE8AB"
     },
@@ -228,7 +227,8 @@
         "visualTags"
       ],
       "image": "https://raw.githubusercontent.com/kingsizew/badges/fdd3479bacf2232e431acda4b59b2858b509d2df/badge-images/visual/10bit.png",
-      "color": "#FFE8AB"
+      "color": "#FFE8AB",
+      "group": "hdr"
     },
     {
       "label": "Dolby Atmos",
