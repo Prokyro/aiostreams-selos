@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="20" viewBox="0 0 36 20" role="img" aria-labelledby="title">
+  <title id="title">Áudio em português</title>
+  <rect x=".5" y=".5" width="35" height="19" rx="5" fill="#142c27" stroke="#539d86"/>
+  <rect x="7" y="4" width="4" height="7.5" rx="2" fill="#9aead0"/>
+  <path d="M5 9.5v.5a4 4 0 0 0 8 0v-.5M9 14v2m-2 0h4" fill="none" stroke="#9aead0" stroke-linecap="round" stroke-width="1.4"/>
+  <path d="M18 14V6h3.1a2.5 2.5 0 0 1 0 5H18m8-5h5m-2.5 0v8" fill="none" stroke="#eafff7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</svg>

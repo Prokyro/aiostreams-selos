@@ -1,24 +1,24 @@
 {
   "badges": [
     {
-      "label": "Áudio em português do Brasil",
+      "label": "Áudio em português",
       "match": "^Audio PT confirmado$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-pt",
       "color": "#E1FFEF",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/symbols/contrast/audio-br.svg"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/symbols/audio-pt.svg"
     },
     {
-      "label": "Legendas em português do Brasil",
+      "label": "Legendas em português",
       "match": "^Legenda PT confirmada$",
       "fields": [
         "rseMatched"
       ],
       "group": "aiostreams-selos-pt",
       "color": "#EAF8FF",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/symbols/subs-br.svg"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/symbols/subs-pt.svg"
     },
     {
       "label": "4K Ultra HD",

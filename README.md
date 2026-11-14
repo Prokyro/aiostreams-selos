@@ -2,10 +2,12 @@
 
 Em **Configurações → Reprodução → Versões → Selos**, vincule o [endereço do pacote](https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/badges.json). O AIOStreams atualiza o pacote periodicamente e sincroniza a configuração entre dispositivos da mesma conta, inclusive TVs. [Documentação do AIOStreams](https://aiostreams.org/reference/version-badges/)
 
-- Microfone cromado com fones verdes indica áudio em português do Brasil.
-- Balões verde e dourado indicam legendas em português do Brasil.
+- Microfone com `PT` indica uma faixa de áudio identificada como português.
+- Balão com `PT` indica uma faixa de legenda identificada como português.
 
-O pacote tem 78 selos. Os 18 serviços usam as imagens da [aba Serviços do AIOStreams](https://github.com/Viren070/AIOStreams/blob/302f93c3908f239f84faf28c94b357bc0583b03d/packages/frontend/src/lib/services.ts). Os selos de português usam as imagens fornecidas para o pacote, com transparência e proporções originais.
+Os dois selos usam as regras `Audio PT confirmado` e `Legenda PT confirmada`. Português do Brasil, de Portugal e sem região usam os mesmos ícones. Uma indicação apenas no nome ou no indexador pode influenciar a ordenação da configuração auditada.
+
+O pacote tem 78 selos. Os 18 serviços usam as imagens da [aba Serviços do AIOStreams](https://github.com/Viren070/AIOStreams/blob/302f93c3908f239f84faf28c94b357bc0583b03d/packages/frontend/src/lib/services.ts).
 
 ## Ajustar o tamanho na lista de versões
 
