@@ -5,7 +5,7 @@ Em **Configurações → Reprodução → Versões → Selos**, vincule o [ender
 - Bandeira com o globo no canto inferior direito indica áudio em português do Brasil.
 - Bandeira com o ícone de legendas no canto inferior direito indica legendas em português do Brasil.
 
-O pacote tem 78 selos. Os 18 serviços usam as imagens da [aba Serviços do AIOStreams](https://github.com/Viren070/AIOStreams/blob/302f93c3908f239f84faf28c94b357bc0583b03d/packages/frontend/src/lib/services.ts). Os selos de português usam a [bandeira brasileira](https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg) fornecida para o pacote com os ícones Material [Language](https://github.com/google/material-design-icons/blob/master/src/action/language/materialicons/24px.svg) e [Subtitles](https://github.com/google/material-design-icons/blob/master/src/av/subtitles/materialicons/24px.svg), sobrepostos e recoloridos sob [Apache 2.0](pt/LICENSE-material-icons.txt).
+O pacote tem 78 selos. Os 18 serviços usam as imagens da [aba Serviços do AIOStreams](https://github.com/Viren070/AIOStreams/blob/302f93c3908f239f84faf28c94b357bc0583b03d/packages/frontend/src/lib/services.ts). Os selos de português usam o [SVG da bandeira brasileira do Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg) na proporção original de 10:7. Os ícones Material [Language](https://github.com/google/material-design-icons/blob/master/src/action/language/materialicons/24px.svg) e [Subtitles](https://github.com/google/material-design-icons/blob/master/src/av/subtitles/materialicons/24px.svg) ficam no canto, sob [Apache 2.0](pt/LICENSE-material-icons.txt).
 
 ## Ajustar o tamanho na lista de versões
 
