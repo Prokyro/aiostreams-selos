@@ -2,14 +2,14 @@
 
 Em **Configurações → Reprodução → Versões → Selos**, vincule o [endereço do pacote](https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/badges.json). O AIOStreams atualiza o pacote periodicamente e sincroniza a configuração entre dispositivos da mesma conta, inclusive TVs. [Documentação do AIOStreams](https://aiostreams.org/reference/version-badges/)
 
-- Bandeira com o globo no canto inferior direito indica áudio em português do Brasil.
-- Bandeira com o ícone de legendas no canto inferior direito indica legendas em português do Brasil.
+- Microfone cromado com fones verdes indica áudio em português do Brasil.
+- Balões verde e dourado indicam legendas em português do Brasil.
 
-O pacote tem 78 selos. Os 18 serviços usam as imagens da [aba Serviços do AIOStreams](https://github.com/Viren070/AIOStreams/blob/302f93c3908f239f84faf28c94b357bc0583b03d/packages/frontend/src/lib/services.ts). Os selos de português usam o [SVG da bandeira brasileira do Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg) na proporção original de 10:7. Os ícones Material [Language](https://github.com/google/material-design-icons/blob/master/src/action/language/materialicons/24px.svg) e [Subtitles](https://github.com/google/material-design-icons/blob/master/src/av/subtitles/materialicons/24px.svg) ficam no canto, sob [Apache 2.0](pt/LICENSE-material-icons.txt).
+O pacote tem 78 selos. Os 18 serviços usam as imagens da [aba Serviços do AIOStreams](https://github.com/Viren070/AIOStreams/blob/302f93c3908f239f84faf28c94b357bc0583b03d/packages/frontend/src/lib/services.ts). Os selos de português usam as imagens fornecidas para o pacote, com transparência e proporções originais.
 
 ## Ajustar o tamanho na lista de versões
 
-Em **Configurações → Tema → CSS personalizado**, use o conteúdo de [selos-grandes.css](selos-grandes.css) e selecione **Aplicar CSS → Manter**. Se o tema já contém o bloco Selos AIOStreams, substitua esse bloco pela versão atual. A altura padrão fica em 20 px, ou 22 px em janelas com pelo menos 1440 px de largura. A bandeira e o logo Full HD da Sony ganham 4 px de altura para melhorar a leitura. O aplicativo salva o tema na conta. [Documentação do tema](https://aiostreams.org/reference/web-app-css/)
+Em **Configurações → Tema → CSS personalizado**, use o conteúdo de [selos-grandes.css](selos-grandes.css) e selecione **Aplicar CSS → Manter**. Se o tema já contém o bloco Selos AIOStreams, substitua esse bloco pela versão atual. A altura padrão fica em 20 px, ou 22 px em janelas com pelo menos 1440 px de largura. Os selos de português e o logo Full HD da Sony ganham 4 px de altura para melhorar a leitura. O aplicativo salva o tema na conta. [Documentação do tema](https://aiostreams.org/reference/web-app-css/)
 
 ## Origem das marcas
 
