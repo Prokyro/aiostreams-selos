@@ -232,9 +232,9 @@
     },
     {
       "label": "Dolby Atmos",
-      "match": "atmos",
+      "match": "^(?:Faixa PT Atmos|Áudio geral Atmos)$",
       "fields": [
-        "audioTags"
+        "rseMatched"
       ],
       "group": "audio",
       "color": "#DFFAF4",
@@ -242,9 +242,9 @@
     },
     {
       "label": "DTS:X",
-      "match": "dts[:-]?x",
+      "match": "^(?:Faixa PT DTS:X|Áudio geral DTS:X)$",
       "fields": [
-        "audioTags"
+        "rseMatched"
       ],
       "group": "audio",
       "color": "#DFFAF4",
@@ -252,9 +252,9 @@
     },
     {
       "label": "Dolby TrueHD",
-      "match": "truehd",
+      "match": "^(?:Faixa PT TrueHD|Áudio geral TrueHD)$",
       "fields": [
-        "audioTags"
+        "rseMatched"
       ],
       "group": "audio",
       "color": "#DFFAF4",
@@ -262,9 +262,9 @@
     },
     {
       "label": "DTS-HD Master Audio",
-      "match": "dts-hd ?ma",
+      "match": "^(?:Faixa PT DTS-HD MA|Áudio geral DTS-HD MA)$",
       "fields": [
-        "audioTags"
+        "rseMatched"
       ],
       "group": "audio",
       "color": "#DFFAF4",
@@ -272,9 +272,9 @@
     },
     {
       "label": "Dolby Digital Plus",
-      "match": "^dd\\+$",
+      "match": "^(?:Faixa PT DD\\+|Áudio geral DD\\+)$",
       "fields": [
-        "audioTags"
+        "rseMatched"
       ],
       "group": "audio",
       "color": "#DFFAF4",
@@ -282,9 +282,9 @@
     },
     {
       "label": "7.1",
-      "match": "^7\\.1$",
+      "match": "^(?:Canais PT 7\\.1|Canais gerais 7\\.1)$",
       "fields": [
-        "audioChannels"
+        "rseMatched"
       ],
       "group": "ch",
       "color": "#DFFAF4",
@@ -292,9 +292,9 @@
     },
     {
       "label": "5.1",
-      "match": "^5\\.1$",
+      "match": "^(?:Canais PT 5\\.1|Canais gerais 5\\.1)$",
       "fields": [
-        "audioChannels"
+        "rseMatched"
       ],
       "group": "ch",
       "color": "#DFFAF4",
