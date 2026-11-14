@@ -111,18 +111,18 @@
       "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/webrip.svg?v=5"
     },
     {
-      "label": "HDR + Dolby Vision",
-      "match": "HDR\\+DV|(?=.*\\bHDR)(?=.*\\bDV\\b)",
+      "label": "Dolby Vision",
+      "match": "\\b(?:DV|DoVi|Dolby[ ._-]*Vision)\\b",
       "fields": [
         "visualTags"
       ],
       "group": "hdr",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/hdr-dolby-vision.png?v=5",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/vision.png?v=5",
       "color": "#FFE8AB"
     },
     {
       "label": "HDR10+",
-      "match": "HDR10\\+",
+      "match": "\\bHDR10\\+(?!\\w)|\\bHDR10[ ._-]*PLUS\\b|\\bHDR10P\\b",
       "fields": [
         "visualTags"
       ],
@@ -131,24 +131,14 @@
       "color": "#FFE8AB"
     },
     {
-      "label": "HDR",
-      "match": "\\bHDR(10)?\\b",
+      "label": "HDR10",
+      "match": "\\bHDR[ ._-]?10\\b(?!\\+|[ ._-]*PLUS|P\\b)",
       "fields": [
         "visualTags"
       ],
       "group": "hdr",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/hdr.png?v=5",
-      "color": "#FFE8AB"
-    },
-    {
-      "label": "Dolby Vision",
-      "match": "\\bDV\\b",
-      "fields": [
-        "visualTags"
-      ],
-      "group": "hdr",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/vision.png?v=5",
-      "color": "#FFE8AB"
+      "color": "#FFE8AB",
+      "image": "https://raw.githubusercontent.com/kingsizew/badges/fdd3479bacf2232e431acda4b59b2858b509d2df/badge-images/visual/hdr10.png"
     },
     {
       "label": "HLG",
@@ -158,6 +148,16 @@
       ],
       "group": "hdr",
       "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/hlg.svg?v=5",
+      "color": "#FFE8AB"
+    },
+    {
+      "label": "HDR",
+      "match": "\\bHDR\\b(?![ ._-]?10\\b)",
+      "fields": [
+        "visualTags"
+      ],
+      "group": "hdr",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/hdr.png?v=5",
       "color": "#FFE8AB"
     },
     {
@@ -354,7 +354,7 @@
     },
     {
       "label": "EXTENDED",
-      "match": "^Extended Edition$|version[ ._-]?longue",
+      "match": "^Extended(?: Edition)?$|\\bextended[ ._-]?(?:cut|edition|version)\\b|(?:^|[._-])extended(?=[._-]|$)|version[ ._-]?longue",
       "fields": [
         "editions",
         "filename"
@@ -556,7 +556,7 @@
     },
     {
       "label": "REMASTERED",
-      "match": "^Remastered$|\\brestor(ed|ation)\\b",
+      "match": "\\b(?:remaster(?:ed)?|restor(?:ed|ation))\\b",
       "fields": [
         "editions",
         "filename"
