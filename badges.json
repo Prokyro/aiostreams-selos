@@ -8,7 +8,7 @@
       ],
       "group": "aiostreams-selos-pt",
       "color": "#E1FFEF",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio-corner.svg"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/audio-br.svg"
     },
     {
       "label": "Legendas em português do Brasil",
@@ -18,7 +18,7 @@
       ],
       "group": "aiostreams-selos-pt",
       "color": "#EAF8FF",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/subs-corner.svg"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/pt/subs-br.svg"
     },
     {
       "label": "4K Ultra HD",
@@ -38,7 +38,7 @@
       ],
       "group": "res",
       "color": "#F4F7FF",
-      "image": "https://raw.githubusercontent.com/IaemTary/nuvio-badges/fb17a15cd292783326d72b0f38a8b373a2b1bf30/Resolution/1080p.png"
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/marcas/full-hd-sony.svg"
     },
     {
       "label": "720",
@@ -98,7 +98,7 @@
       ],
       "group": "src",
       "color": "#FFE4C9",
-      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/selos/web-dl.svg?v=5"
+      "image": "https://raw.githubusercontent.com/kingsizew/badges/fdd3479bacf2232e431acda4b59b2858b509d2df/badge-images/quality/web-dl-green.png"
     },
     {
       "label": "WEBRIP",
