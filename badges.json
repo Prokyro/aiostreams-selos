@@ -2,9 +2,9 @@
   "badges": [
     {
       "label": "Áudio em português",
-      "match": "^Audio PT confirmado$",
+      "match": "^Dublado PT - (?:em|sem) cache$",
       "fields": [
-        "rseMatched"
+        "seMatched"
       ],
       "group": "aiostreams-selos-pt",
       "color": "#E1FFEF",
@@ -12,9 +12,9 @@
     },
     {
       "label": "Legendas em português",
-      "match": "^Legenda PT confirmada$",
+      "match": "^Legendado PT - (?:em|sem) cache$",
       "fields": [
-        "rseMatched"
+        "seMatched"
       ],
       "group": "aiostreams-selos-pt",
       "color": "#EAF8FF",
