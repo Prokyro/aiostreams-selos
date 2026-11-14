@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="36" height="20" viewBox="0 0 36 20" role="img" aria-labelledby="title">
-  <title id="title">Legendas em português</title>
-  <rect x=".5" y=".5" width="35" height="19" rx="5" fill="#172a39" stroke="#608da7"/>
-  <path d="M6 5.5h6a1.5 1.5 0 0 1 1.5 1.5v4.5A1.5 1.5 0 0 1 12 13H9l-2.5 2v-2H6a1.5 1.5 0 0 1-1.5-1.5V7A1.5 1.5 0 0 1 6 5.5Z" fill="none" stroke="#a8d7f1" stroke-linejoin="round" stroke-width="1.25"/>
-  <path d="M6.7 8.1h4.6m-4.6 2.3h3.2" stroke="#a8d7f1" stroke-linecap="round" stroke-width="1.15"/>
-  <path d="M18 14V6h3.1a2.5 2.5 0 0 1 0 5H18m8-5h5m-2.5 0v8" fill="none" stroke="#ecf8ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-</svg>

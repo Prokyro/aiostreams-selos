@@ -2,8 +2,8 @@
 
 Em **Configurações → Reprodução → Versões → Selos**, vincule o [endereço do pacote](https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/badges.json). O AIOStreams atualiza o pacote periodicamente e sincroniza a configuração entre dispositivos da mesma conta, inclusive TVs. [Documentação do AIOStreams](https://aiostreams.org/reference/version-badges/)
 
-- Microfone com `PT` indica uma faixa de áudio identificada como português.
-- Balão com `PT` indica uma faixa de legenda identificada como português.
+- O microfone cromado com fones verdes indica uma faixa de áudio identificada como português.
+- Os balões verde e dourado indicam uma faixa de legenda identificada como português.
 
 Os dois selos usam as regras `Audio PT confirmado` e `Legenda PT confirmada`. Português do Brasil, de Portugal e sem região usam os mesmos ícones. Uma indicação apenas no nome ou no indexador pode influenciar a ordenação da configuração auditada.
 

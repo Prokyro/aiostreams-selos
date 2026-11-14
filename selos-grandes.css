@@ -17,8 +17,6 @@
 
 [data-ui="version-badges"] img[src$="/audio-br.svg"],
 [data-ui="version-badges"] img[src$="/subs-br.svg"],
-[data-ui="version-badges"] img[src$="/audio-pt.svg"],
-[data-ui="version-badges"] img[src$="/subs-pt.svg"],
 [data-ui="version-badges"] img[src$="/full-hd-sony.svg"] {
   height: 1.5rem;
 }
@@ -35,8 +33,6 @@
 
   [data-ui="version-badges"] img[src$="/audio-br.svg"],
   [data-ui="version-badges"] img[src$="/subs-br.svg"],
-  [data-ui="version-badges"] img[src$="/audio-pt.svg"],
-  [data-ui="version-badges"] img[src$="/subs-pt.svg"],
   [data-ui="version-badges"] img[src$="/full-hd-sony.svg"] {
     height: 1.625rem;
   }
