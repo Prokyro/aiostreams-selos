@@ -1,14 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="73" height="16" viewBox="0 0 73 16">
-  <defs>
-    <linearGradient id="metal" x2="0" y2="1">
-      <stop stop-color="#423753"/>
-      <stop offset=".39" stop-color="#251D32"/>
-      <stop offset=".85" stop-color="#251D32"/>
-      <stop offset="1" stop-color="#423753"/>
-    </linearGradient>
-  </defs>
-  <rect x=".5" y=".5" width="72" height="15" rx="2.8" fill="url(#metal)" stroke="#D0BFF3" stroke-opacity=".78"/>
-  <g transform="translate(2.815254 13.571186) scale(0.016102 -0.016102)" fill="#F4EDFF">
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="16" viewBox="0 0 65 16">
+  <rect x=".5" y="1" width="64" height="14" rx="3.25" fill="#2B2534" stroke="#62566D"/>
+  <g transform="translate(3.542938 12.789266) scale(0.013842 -0.013842)" fill="#EDE5F4">
     <path transform="translate(0)" d="M48 215V688Q48 693 51.5 696.5Q55 700 60 700H177Q182 700 185.5 696.5Q189 693 189 688V208Q189 165 213 139Q237 113 277 113Q317 113 341 139Q365 165 365 208V688Q365 693 368.5 696.5Q372 700 377 700H494Q499 700 502.5 696.5Q506 693 506 688V215Q506 149 477.5 98.5Q449 48 397 20Q345 -8 277 -8Q209 -8 157 20Q105 48 76.5 98.5Q48 149 48 215Z"/>
     <path transform="translate(568)" d="M53 12V688Q53 693 56.5 696.5Q60 700 65 700H182Q187 700 190.5 696.5Q194 693 194 688V126Q194 121 199 121H467Q472 121 475.5 117.5Q479 114 479 109V12Q479 7 475.5 3.5Q472 0 467 0H65Q60 0 56.5 3.5Q53 7 53 12Z"/>
     <path transform="translate(1081)" d="M500 688V590Q500 585 496.5 581.5Q493 578 488 578H336Q331 578 331 573V12Q331 7 327.5 3.5Q324 0 319 0H202Q197 0 193.5 3.5Q190 7 190 12V573Q190 578 185 578H38Q33 578 29.5 581.5Q26 585 26 590V688Q26 693 29.5 696.5Q33 700 38 700H488Q493 700 496.5 696.5Q500 693 500 688Z"/>

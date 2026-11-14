@@ -12,13 +12,13 @@ from fontTools.ttLib import TTFont
 
 ROOT = Path(__file__).resolve().parent
 FINISHES = {
-    "res": ("#B7DDF4", "#37526C", "#152337", "#EFF9FF"),
-    "src": ("#F0BD8B", "#53392D", "#271A17", "#FFEAD6"),
-    "hdr": ("#EFC77E", "#5D4420", "#2B1C12", "#FFF0CB"),
-    "enc": ("#A3CBFE", "#374D6A", "#172439", "#E6F2FF"),
-    "audio": ("#8BDFCC", "#2A554E", "#132D2A", "#E2FFF5"),
-    "ch": ("#8BDFCC", "#2A554E", "#132D2A", "#E2FFF5"),
-    "ed": ("#D0BFF3", "#423753", "#251D32", "#F4EDFF"),
+    "res": ("#53657A", "#232E3A", "#EEF5FF"),
+    "src": ("#765B35", "#332819", "#FFE3AE"),
+    "hdr": ("#745A35", "#372A19", "#FFE2A5"),
+    "enc": ("#4C607C", "#253043", "#DDEBFF"),
+    "audio": ("#3E615C", "#203531", "#DBF6F0"),
+    "ch": ("#3E615C", "#203531", "#DBF6F0"),
+    "ed": ("#62566D", "#2B2534", "#EDE5F4"),
 }
 
 
@@ -44,9 +44,9 @@ def outline(label, glyphs, cmap):
     right = max(box[2] for _, _, box in shapes)
     bottom = min(box[1] for _, _, box in shapes)
     top = max(box[3] for _, _, box in shapes)
-    scale = 11.4 / (top - bottom)
-    horizontal = min(scale, 96 / (right - left))
-    width = max(22, round((right - left) * horizontal + 7))
+    scale = 9.8 / (top - bottom)
+    horizontal = min(scale, 81 / (right - left))
+    width = max(21, round((right - left) * horizontal + 8))
     x = (width - (left + right) * horizontal) / 2
     y = 8 + (bottom + top) * scale / 2
     transform = f"translate({number(x)} {number(y)}) scale({number(horizontal)} -{number(scale)})"
@@ -56,19 +56,9 @@ def outline(label, glyphs, cmap):
 
 def badge_svg(label, group, glyphs, cmap):
     width, transform, paths = outline(label, glyphs, cmap)
-    rim, top, bottom, ink = FINISHES.get(group, FINISHES["ed"])
-    if label == "4K":
-        rim, top, bottom, ink = "#FFF4CD", "#FFF1B4", "#C38C40", "#241808"
+    rim, background, ink = FINISHES.get(group, FINISHES["ed"])
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="16" viewBox="0 0 {width} 16">
-  <defs>
-    <linearGradient id="metal" x2="0" y2="1">
-      <stop stop-color="{top}"/>
-      <stop offset=".39" stop-color="{bottom}"/>
-      <stop offset=".85" stop-color="{bottom}"/>
-      <stop offset="1" stop-color="{top}"/>
-    </linearGradient>
-  </defs>
-  <rect x=".5" y=".5" width="{width - 1}" height="15" rx="2.8" fill="url(#metal)" stroke="{rim}" stroke-opacity=".78"/>
+  <rect x=".5" y="1" width="{width - 1}" height="14" rx="3.25" fill="{background}" stroke="{rim}"/>
   <g transform="{transform}" fill="{ink}">
 {paths}
   </g>
