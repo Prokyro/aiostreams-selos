@@ -43,3 +43,11 @@ As marcas identificam os serviços, formatos e coleções que o aplicativo detec
 ## Regenerar as etiquetas tipográficas
 
 Com `fonttools` instalado, execute `python make_badges.py --font BarlowSemiCondensed-Bold.ttf`. Use a [Barlow Semi Condensed Bold](https://github.com/google/fonts/tree/main/ofl/barlowsemicondensed), de Jeremy Tribby, sob SIL Open Font License.
+
+## Integração por faixa de áudio (14/11/2026)
+
+O formato de áudio (Atmos, DTS:X, TrueHD, DTS-HD MA e DD+) e os canais (7.1 / 5.1) agora usam `rseMatched` da configuração **AIO PT Qualidade** atualizada, e não os `audioTags` / `audioChannels` agregados do arquivo. Dessa forma, áudio português DD+ 5.1 + áudio inglês Atmos mostra DD+ e 5.1, e não o Atmos inglês.
+
+As novas expressões de pontuação zero são `Faixa PT <formato>`, `Canais PT <canais>`, `Áudio geral <formato>` e `Canais gerais <canais>`. A detecção usa a mesma faixa que possui idioma português (independente da variante PT-BR/PT-PT); faixas sem idioma podem ser consideradas quando o título da faixa declara português. Sem faixa portuguesa detectada, o selo de áudio geral é usado **somente quando o stream não foi classificado como áudio PT**. Quando o português é apenas indicado por nome/indexador e o formato da faixa não está disponível, os selos de formato/canais são omitidos em vez de exibir o codec da trilha estrangeira.
+
+**Importante:** é necessário importar a configuração AIOStreams correspondente, com as 14 regras classificadas adicionadas; o pacote de badges, por si só, não enxerga as faixas de áudio. Todas essas regras têm score 0 e não alteram a pontuação. Os símbolos, imagens, URLs dos arquivos e demais regras do pacote foram preservados.
