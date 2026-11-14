@@ -13,6 +13,12 @@ O pacote mostra **no máximo um selo de faixa dinâmica por versão**, com a pri
 
 Os formatos são reconhecidos somente em `visualTags`; os selos não alteram o HDR do vídeo, a ordem dos streams nem as pontuações. Essa exclusividade vale **dentro deste pacote**: outros pacotes ou selos personalizados de HDR podem apresentar ícones adicionais.
 
+### Selo 10BIT sem redundância com HDR
+
+O selo `10BIT` usa o mesmo grupo `hdr` e fica depois de Dolby Vision, HDR10+, HDR10, HLG e HDR. Isso faz o aplicativo esconder **10BIT quando qualquer desses formatos HDR for reconhecido**. O selo SDR não participa desse grupo, permitindo exibir **SDR + 10BIT** juntos quando ambos são identificados.
+
+Se um arquivo trouxer `10bit` sem nenhuma tag HDR identificada, o selo 10BIT também aparece; **não é necessário existir uma tag SDR explícita**. A regra remove redundância visual, mas não confirma a profundidade de cor por FFprobe, não muda a classificação dos streams e não exige qualquer alteração nas Ranked Stream Expressions.
+
 ## Integração com a configuração AIO PT Qualidade (14/11/2026)
 
 Os selos de português permanecem vinculados ao campo **`seMatched`** e às quatro preferências `Dublado PT - em cache`, `Dublado PT - sem cache`, `Legendado PT - em cache` e `Legendado PT - sem cache`. Isso acompanha tanto as regras `Audio PT confirmado/indicado` quanto `Legenda PT confirmada/indicada` da configuração, sem exigir nenhuma alteração nela.
