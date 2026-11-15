@@ -8,10 +8,6 @@
   --cinema-muted: #9eafb6;
   --cinema-accent: #86e3cf;
   --ring: var(--cinema-accent);
-  width: min(90vw, 76rem);
-  max-width: 76rem;
-  height: 90vh;
-  max-height: 90vh;
   border: 1px solid rgba(174, 212, 215, .16);
   border-radius: 1.3rem;
   background: var(--cinema-bg);
@@ -338,15 +334,6 @@
 }
 
 @media (max-width: 767px) {
-  html:not([data-tv]) [data-ui="dialog"][data-name="versions"] {
-    width: 100%;
-    max-width: 100%;
-    height: 100dvh;
-    max-height: 100dvh;
-    border: 0;
-    border-radius: 0;
-  }
-
   html:not([data-tv]) [data-ui="dialog"][data-name="versions"] .UI-Modal__header {
     padding: calc(1.1rem + env(safe-area-inset-top)) 3.5rem .65rem 1rem;
   }
@@ -427,4 +414,55 @@
 
 [data-tv] [data-ui="versions-list"] {
   padding-top: .8rem;
+}
+
+/* Painel lateral nativo: sem alterar dimensões ou posicionamento. */
+[data-ui="dialog"][data-name="versions"][data-side="right"] {
+  border-radius: var(--radius);
+}
+
+[data-ui="dialog"][data-name="versions"][data-side="right"] [data-ui="versions-header"] {
+  padding: calc(.5rem + env(safe-area-inset-top)) .75rem .6rem;
+}
+
+[data-ui="dialog"][data-name="versions"][data-side="right"] [data-ui="versions-list"] {
+  padding: .75rem .75rem 1.25rem;
+}
+
+[data-ui="dialog"][data-name="versions"][data-side="right"] [data-ui="version-play"] {
+  padding: .8rem;
+}
+
+[data-ui="dialog"][data-name="versions"][data-side="right"] [data-ui="version-play-icon"] {
+  display: none;
+}
+
+[data-ui="dialog"][data-name="versions"][data-side="right"] [data-ui="version-name"] {
+  white-space: pre-line;
+  font-size: .875rem;
+  line-height: 1.4;
+}
+
+[data-ui="dialog"][data-name="versions"][data-side="right"] [data-ui="version-description"] {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  font-size: .75rem;
+}
+
+[data-ui="dialog"][data-name="versions"][data-side="right"] [data-ui="version-badges"] {
+  gap: .3rem .4rem;
+  padding-inline-end: 1.6rem;
+}
+
+[data-ui="dialog"][data-name="versions"][data-side="right"] [data-ui="version-badge"] {
+  height: 1.4rem;
+  min-height: 1.4rem;
+}
+
+[data-ui="dialog"][data-name="versions"][data-side="right"] [data-ui="version-badge"] > img {
+  height: 1.1rem;
+  max-width: 6rem;
 }
