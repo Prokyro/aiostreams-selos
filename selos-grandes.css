@@ -1,39 +1,430 @@
-/* Selos AIOStreams */
+/* AIOStreams · Cinema — lista de versões, TV e desktop */
+/* Somente apresentação. Mantém fontes, ordem e regras dos streams. */
+
+[data-ui="dialog"][data-name="versions"] {
+  --cinema-bg: #0b1014;
+  --cinema-card: #111a20;
+  --cinema-text: #edf4f4;
+  --cinema-muted: #9eafb6;
+  --cinema-accent: #86e3cf;
+  --ring: var(--cinema-accent);
+  width: min(90vw, 76rem);
+  max-width: 76rem;
+  height: 90vh;
+  max-height: 90vh;
+  border: 1px solid rgba(174, 212, 215, .16);
+  border-radius: 1.3rem;
+  background: var(--cinema-bg);
+  color: var(--cinema-text);
+  box-shadow: 0 2rem 7rem rgba(0, 0, 0, .65), 0 0 0 1px rgba(255, 255, 255, .025);
+  overflow: hidden;
+}
+
+[data-ui="dialog"][data-name="versions"] .UI-Modal__header {
+  padding: 1.4rem 4rem .7rem 1.6rem;
+}
+
+[data-ui="dialog"][data-name="versions"] .UI-Modal__title {
+  font-size: clamp(1.25rem, 1.8vw, 1.7rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -.025em;
+  text-wrap: balance;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, .55);
+}
+
+[data-ui="dialog"][data-name="versions"] .UI-Modal__description {
+  margin-top: .35rem;
+  color: #b2c3ca;
+  font-size: .85rem;
+  letter-spacing: .06em;
+}
+
+[data-ui="dialog"][data-name="versions"] .UI-Modal__close {
+  top: 1.2rem;
+  right: 1.2rem;
+  border-radius: 50%;
+  background: rgba(10, 18, 23, .65);
+  color: #d3e0e4;
+}
+
+[data-ui="versions-banner"] {
+  opacity: .7;
+}
+
+[data-ui="versions-banner"] img {
+  opacity: .32;
+  mask-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, .5) 55%, transparent);
+}
+
+[data-ui="versions-header"] {
+  padding: .35rem 1.6rem 1rem;
+  flex-shrink: 0;
+}
+
+[data-ui="versions-count"] {
+  color: #acc0c8;
+  font-size: .8rem;
+  font-weight: 500;
+  letter-spacing: .025em;
+}
+
+[data-ui="versions-action"] {
+  border: 1px solid rgba(188, 218, 224, .1);
+  background: rgba(13, 24, 30, .72);
+  color: #d6e5e8;
+}
+
+[data-ui="versions-filter"] {
+  border-radius: .65rem;
+  border-color: rgba(162, 197, 207, .14);
+  background: rgba(5, 13, 18, .75);
+}
+
+[data-ui="versions-filter"] input {
+  font-size: .85rem;
+}
+
+[data-ui="versions-quick"] {
+  gap: .5rem;
+}
+
+[data-ui="versions-quick-filter"] {
+  min-height: 2.1rem;
+  padding-inline: .85rem;
+  border: 1px solid rgba(183, 212, 221, .13);
+  border-radius: .55rem;
+  background: rgba(14, 27, 34, .78);
+  color: #becdd3;
+  font-size: .8rem;
+  font-weight: 600;
+  box-shadow: none;
+}
+
+[data-ui="versions-quick-filter"][aria-selected="true"] {
+  border-color: #a4eadc;
+  background: #a4eadc;
+  color: #0b2824;
+}
+
+[data-ui="versions-quick-filter"][data-empty]:not([aria-selected="true"]) {
+  display: none;
+}
+
+[data-ui="versions-quick-filter"] > span {
+  margin-inline-start: .5rem;
+  font-variant-numeric: tabular-nums;
+}
+
+[data-ui="versions-quick-filter"]:focus-visible,
+[data-ui="versions-action"]:focus-visible {
+  outline: 2px solid #c7fff1;
+  outline-offset: 3px;
+}
+
+[data-ui="versions-list"] {
+  padding: 1rem 1.6rem 1.5rem;
+  border-top: 1px solid rgba(164, 202, 211, .13);
+  background: linear-gradient(180deg, rgba(8, 16, 21, .98), rgba(9, 14, 19, .98));
+  scrollbar-width: thin;
+  scrollbar-color: #44666b transparent;
+  scroll-padding-block: 1rem;
+}
+
+[data-ui="versions-list"] > [data-ui="version"] + [data-ui="version"] {
+  margin-top: .65rem;
+}
+
+[data-ui="version"] {
+  border: 1px solid rgba(161, 193, 205, .14);
+  border-radius: .85rem;
+  background: linear-gradient(110deg, #141e25, #11191f 75%);
+  box-shadow: 0 .2rem .7rem rgba(0, 0, 0, .14);
+  transition: border-color 140ms ease, background-color 140ms ease, box-shadow 140ms ease;
+  contain-intrinsic-size: auto 9rem;
+}
+
+[data-ui="version"][data-playing] {
+  border-color: rgba(235, 198, 112, .6);
+}
+
+[data-ui="version-play"] {
+  gap: 1rem;
+  padding: 1rem 1.1rem;
+  border-radius: .8rem;
+  align-items: flex-start;
+}
+
+[data-ui="version-play"] > span:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: .45rem;
+}
+
+[data-ui="version-play"] > span:last-child > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+[data-ui="version-play"] > span:last-child > [aria-hidden="true"] {
+  display: none;
+}
+
+[data-ui="version-play-icon"] {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-top: .05rem;
+  border: 1px solid rgba(134, 227, 207, .19);
+  background: rgba(88, 168, 153, .1);
+  color: #a7e5d7;
+}
+
+[data-ui="version-play-icon"] svg {
+  width: 1.1rem;
+  height: 1.1rem;
+}
+
+[data-ui="version-name"] {
+  color: #e0e9ec;
+  font-size: .94rem;
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: .005em;
+  font-variant-numeric: tabular-nums;
+}
+
+[data-ui="version-description"] {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #8fa3ad;
+  font-size: .77rem;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: .005em;
+}
+
 [data-ui="version-badges"] {
-  gap: .25rem;
+  order: -1;
+  align-items: center;
+  gap: .35rem .6rem;
+  min-height: 1.7rem;
+  padding: 0 0 .35rem;
+  margin: 0;
+  border-bottom: 1px solid rgba(164, 194, 204, .09);
 }
 
 [data-ui="version-badges"] > [data-ui="version-badge"] {
-  height: 1.5rem;
-  padding-inline: .125rem;
-  font-size: .75rem;
+  height: 1.65rem;
+  min-height: 1.65rem;
+  padding: .1rem .15rem;
+  font-size: .7rem;
+  line-height: 1;
+  border-radius: .3rem;
+}
+
+[data-ui="version-badges"] > [data-ui="version-badge"]:has(img) {
+  border-color: transparent;
+  background: transparent;
 }
 
 [data-ui="version-badges"] > [data-ui="version-badge"] > img {
-  height: 1.25rem;
+  width: auto;
+  height: 1.3rem;
   max-height: none;
-  max-width: 7.5rem;
+  max-width: 8rem;
+  object-fit: contain;
 }
 
 [data-ui="version-badges"] img[src$="/audio-br.svg"],
 [data-ui="version-badges"] img[src$="/subs-br.svg"],
 [data-ui="version-badges"] img[src$="/full-hd-sony.svg"] {
-  height: 1.5rem;
+  height: 1.55rem;
 }
 
-@media (min-width: 90rem) {
-  [data-ui="version-badges"] > [data-ui="version-badge"] {
-    height: 1.625rem;
+[data-ui="version-playing"] {
+  align-self: flex-start;
+  background: #e9ce8b;
+  color: #34270d;
+  font-size: .7rem;
+}
+
+[data-ui="version-action"] {
+  border-radius: .45rem;
+  color: #9fb5bf;
+}
+
+[data-ui="version"]:focus-within {
+  border-color: #86e3cf;
+  background: linear-gradient(110deg, #18332f, #13272c 72%, #142129);
+  box-shadow: 0 0 0 2px rgba(134, 227, 207, .75), 0 .45rem 1.4rem rgba(0, 0, 0, .25);
+}
+
+[data-ui="version-play"]:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+[data-ui="version"]:focus-within [data-ui="version-play-icon"] {
+  border-color: #a4eadc;
+  background: #a4eadc;
+  color: #12352c;
+}
+
+[data-ui="version"]:focus-within [data-ui="version-name"] {
+  color: #f1fbf8;
+}
+
+[data-ui="version"]:focus-within [data-ui="version-description"] {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space: normal;
+  color: #b1c9cf;
+  overflow-wrap: anywhere;
+}
+
+[data-ui="version-action"]:focus-visible {
+  outline: 2px solid #d5fff3;
+  outline-offset: 2px;
+  background: rgba(134, 227, 207, .16);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  [data-ui="version"]:hover {
+    border-color: rgba(134, 227, 207, .45);
+    background: linear-gradient(110deg, #192b2e, #162128);
   }
 
-  [data-ui="version-badges"] > [data-ui="version-badge"] > img {
-    height: 1.375rem;
-    max-width: 8.25rem;
+  [data-ui="version"]:hover [data-ui="version-description"] {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
 
-  [data-ui="version-badges"] img[src$="/audio-br.svg"],
-  [data-ui="version-badges"] img[src$="/subs-br.svg"],
-  [data-ui="version-badges"] img[src$="/full-hd-sony.svg"] {
-    height: 1.625rem;
+  [data-ui="version"]:hover [data-ui="version-play-icon"] {
+    background: #a4eadc;
+    color: #12352c;
   }
+}
+
+[data-tv] [data-ui="version-play"] {
+  padding: 1rem 1.15rem;
+}
+
+[data-tv] [data-ui="version-name"] {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+[data-tv] [data-ui="version-description"] {
+  font-size: .8rem;
+}
+
+[data-tv] [data-ui="version-play-icon"] {
+  display: flex;
+}
+
+[data-tv] [data-ui="version-badges"] {
+  gap: .4rem .7rem;
+}
+
+[data-tv] [data-ui="versions-quick-filter"] {
+  min-height: 2.25rem;
+  font-size: .85rem;
+}
+
+@media (max-width: 767px) {
+  html:not([data-tv]) [data-ui="dialog"][data-name="versions"] {
+    width: 100%;
+    max-width: 100%;
+    height: 100dvh;
+    max-height: 100dvh;
+    border: 0;
+    border-radius: 0;
+  }
+
+  html:not([data-tv]) [data-ui="dialog"][data-name="versions"] .UI-Modal__header {
+    padding: calc(1.1rem + env(safe-area-inset-top)) 3.5rem .65rem 1rem;
+  }
+
+  html:not([data-tv]) [data-ui="versions-header"] {
+    padding-inline: 1rem;
+  }
+
+  html:not([data-tv]) [data-ui="versions-list"] {
+    padding: .8rem .8rem 1.5rem;
+  }
+
+  html:not([data-tv]) [data-ui="version-play"] {
+    padding: .85rem;
+    gap: .65rem;
+  }
+
+  html:not([data-tv]) [data-ui="version-badges"] {
+    padding-inline-end: 1.7rem;
+    gap: .3rem;
+  }
+
+  html:not([data-tv]) [data-ui="version-name"] {
+    font-size: .85rem;
+  }
+
+  html:not([data-tv]) [data-ui="version-description"] {
+    font-size: .73rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-ui="version"] {
+    transition: none;
+  }
+}
+
+/* Refinamento após inspeção na Philips: mais opções, mesma legibilidade. */
+[data-ui="dialog"][data-name="versions"] .UI-Modal__header {
+  padding-top: 1rem;
+  padding-bottom: .45rem;
+}
+
+[data-ui="versions-header"] {
+  padding-top: .15rem;
+  padding-bottom: .75rem;
+}
+
+[data-ui="versions-header"] > * + * {
+  margin-top: .65rem;
+}
+
+[data-ui="version-name"] {
+  white-space: normal;
+  line-height: 1.5;
+}
+
+[data-ui="version-play"] {
+  padding-block: .8rem;
+}
+
+[data-ui="version-play"] > span:last-child {
+  gap: .35rem;
+}
+
+[data-ui="version-badges"] {
+  padding-bottom: .25rem;
+}
+
+[data-tv] [data-ui="version-play"] {
+  padding-block: .8rem;
+}
+
+[data-tv] [data-ui="version-name"] {
+  font-size: .96rem;
+  line-height: 1.5;
+}
+
+[data-tv] [data-ui="versions-list"] {
+  padding-top: .8rem;
 }
