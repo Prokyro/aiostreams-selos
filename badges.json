@@ -1,6 +1,591 @@
 {
   "badges": [
     {
+      "label": "Crawler",
+      "match": "^(?:Usenet[ -]?)?Crawler$",
+      "fields": [
+        "addon",
+        "indexer"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/crawler.png"
+    },
+    {
+      "label": "altHUB",
+      "match": "^altHUB$",
+      "fields": [
+        "addon",
+        "indexer"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/althub.png"
+    },
+    {
+      "label": "NzbNest",
+      "match": "^NzbNest$",
+      "fields": [
+        "addon",
+        "indexer"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/nzbnest.svg"
+    },
+    {
+      "label": "AmeNZB",
+      "match": "^AmeNZB$",
+      "fields": [
+        "addon",
+        "indexer"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/amenzb.png"
+    },
+    {
+      "label": "DrunkenSlug",
+      "match": "^DrunkenSlug$",
+      "fields": [
+        "addon",
+        "indexer"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/drunkenslug.png"
+    },
+    {
+      "label": "TabulaRasa",
+      "match": "^Tabula[ -]?Rasa$",
+      "fields": [
+        "addon",
+        "indexer"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/tabularasa.svg"
+    },
+    {
+      "label": "AmigosShare",
+      "match": "^Amigos[ -]?Share(?:[ -]?Club)?$",
+      "fields": [
+        "addon",
+        "indexer"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/amigosshare.png"
+    },
+    {
+      "label": "AnimeZ",
+      "match": "^AnimeZ$",
+      "fields": [
+        "addon",
+        "indexer"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/animez.svg"
+    },
+    {
+      "label": "TurkTorrent",
+      "match": "^TurkTorrent$",
+      "fields": [
+        "addon",
+        "indexer"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/turktorrent.png"
+    },
+    {
+      "label": "Malayabits",
+      "match": "^Malayabits$",
+      "fields": [
+        "addon",
+        "indexer"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/malayabits.png"
+    },
+    {
+      "label": "Darkpeers",
+      "match": "^Dark[ -]?Peers$",
+      "fields": [
+        "addon",
+        "indexer"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/darkpeers.png"
+    },
+    {
+      "label": "Oldtoons",
+      "match": "^Old[ -]?Toons(?:[ -]?World)?$",
+      "fields": [
+        "addon",
+        "indexer"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/oldtoons.png"
+    },
+    {
+      "label": "ExoticaZ",
+      "match": "^ExoticaZ$",
+      "fields": [
+        "addon",
+        "indexer"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/exoticaz.png"
+    },
+    {
+      "label": "52PT",
+      "match": "^52PT$",
+      "fields": [
+        "addon",
+        "indexer"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/52pt.png"
+    },
+    {
+      "label": "Curupira",
+      "match": "^Curupira(?: Share)?$",
+      "fields": [
+        "addon",
+        "indexer"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/curupira.png"
+    },
+    {
+      "label": "CapybaraBR",
+      "match": "^Capybara[ -]?BR$",
+      "fields": [
+        "addon",
+        "indexer"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/capybarabr.png"
+    },
+    {
+      "label": "Samaritano",
+      "match": "^Samaritano$",
+      "fields": [
+        "addon",
+        "indexer"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/samaritano.png"
+    },
+    {
+      "label": "Easynews Search",
+      "match": "^Easynews[ -]?Search$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/easynews-search.png"
+    },
+    {
+      "label": "StremThru Torz",
+      "match": "^(?:STorz|StremThru[ -]?Torz)$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/stremthru-torz.png"
+    },
+    {
+      "label": "Torrentio",
+      "match": "^Torrentio$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/torrentio.png"
+    },
+    {
+      "label": "Comet",
+      "match": "^Comet$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/comet.png"
+    },
+    {
+      "label": "Meteor",
+      "match": "^Meteor$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/meteor.png"
+    },
+    {
+      "label": "PenguPlay",
+      "match": "^PenguPlay$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/penguplay.png"
+    },
+    {
+      "label": "MediaFusion",
+      "match": "^MediaFusion$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/mediafusion.png"
+    },
+    {
+      "label": "Zilean",
+      "match": "^Zilean$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/zilean.png"
+    },
+    {
+      "label": "Knaben",
+      "match": "^Knaben$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/knaben.png"
+    },
+    {
+      "label": "EZTV",
+      "match": "^EZTV$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/eztv.png"
+    },
+    {
+      "label": "TheRARBG",
+      "match": "^TheRARBG$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/therarbg.png"
+    },
+    {
+      "label": "The Pirate Bay",
+      "match": "^The[ -]?Pirate[ -]?Bay$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/the-pirate-bay.png"
+    },
+    {
+      "label": "TsukiHime",
+      "match": "^TsukiHime$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/tsukihime.svg"
+    },
+    {
+      "label": "Bitmagnet",
+      "match": "^Bitmagnet$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/bitmagnet.png"
+    },
+    {
+      "label": "SeaDex",
+      "match": "^SeaDex$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/seadex.png"
+    },
+    {
+      "label": "Anime Tosho",
+      "match": "^Anime[ -]?Tosho(?:[ -]?(?:\\(?(?:Archived|New)\\)?))?$",
+      "fields": [
+        "addon",
+        "indexer"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/anime-tosho.png"
+    },
+    {
+      "label": "nekoBT",
+      "match": "^nekoBT$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/nekobt.png"
+    },
+    {
+      "label": "Prowlarr",
+      "match": "^Prowlarr$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/prowlarr.png"
+    },
+    {
+      "label": "Jackett",
+      "match": "^Jackett$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/jackett.png"
+    },
+    {
+      "label": "NZBHydra",
+      "match": "^NZBHydra2?$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/nzbhydra.png"
+    },
+    {
+      "label": "Jackettio",
+      "match": "^Jackettio$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/jackett.png"
+    },
+    {
+      "label": "Stremio GDrive",
+      "match": "^Stremio[ -]?GDrive$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/stremio-gdrive.png"
+    },
+    {
+      "label": "Orion",
+      "match": "^Orion$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/orion.png"
+    },
+    {
+      "label": "TorrentsDB",
+      "match": "^Torrents[ -]?DB$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/torrentsdb.svg"
+    },
+    {
+      "label": "FKStream",
+      "match": "^FKStream$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/fkstream.png"
+    },
+    {
+      "label": "Debridio Scraper",
+      "match": "^Debridio(?: Scraper)?$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/debridio-scraper.png"
+    },
+    {
+      "label": "Addon Easynews",
+      "match": "^Easynews(?:\\+{1,2}|Plus(?:Plus)?)?$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/easynews.png"
+    },
+    {
+      "label": "Usenet Streamer",
+      "match": "^Usenet[ -]?Streamer$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/usenet-streamer.png"
+    },
+    {
+      "label": "StreamNZB",
+      "match": "^StreamNZB$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/streamnzb.png"
+    },
+    {
+      "label": "davex",
+      "match": "^davex$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/davex.png"
+    },
+    {
+      "label": "DMM Cast",
+      "match": "^DMM[ -]?Cast$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/dmm-cast.png"
+    },
+    {
+      "label": "HdHub",
+      "match": "^HdHub$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/hdhub.png"
+    },
+    {
+      "label": "Flix-Streams",
+      "match": "^Flix\\-Streams$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/flix-streams.png"
+    },
+    {
+      "label": "Brazuca Torrents",
+      "match": "^Brazuca[ -]?Torrents$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/brazuca-torrents.png"
+    },
+    {
+      "label": "yastream",
+      "match": "^yastream$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/yastream.png"
+    },
+    {
+      "label": "USA TV Next",
+      "match": "^USA[ -]?TV[ -]?Next$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/usa-tv-next.png"
+    },
+    {
+      "label": "Doctor Who Universe",
+      "match": "^Doctor[ -]?Who[ -]?Universe$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/doctor-who-universe.png"
+    },
+    {
+      "label": "StremThru Store",
+      "match": "^StremThru[ -]?Store$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/stremthru-torz.png"
+    },
+    {
+      "label": "Sootio",
+      "match": "^Sootio$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/sootio.svg"
+    },
+    {
+      "label": "Peerflix",
+      "match": "^Peerflix$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/peerflix.png"
+    },
+    {
+      "label": "Library",
+      "match": "^Library$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/library.svg"
+    },
+    {
+      "label": "Xtream",
+      "match": "^Xtream$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/xtream.svg"
+    },
+    {
+      "label": "WebStreamr",
+      "match": "^WebStreamr$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/webstreamr.svg"
+    },
+    {
+      "label": "TorrentGalaxy",
+      "match": "^Torrent[ -]?Galaxy$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/torrentgalaxy.svg"
+    },
+    {
+      "label": "Newznab",
+      "match": "^Newznab$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/newznab.png"
+    },
+    {
+      "label": "Torznab",
+      "match": "^Torznab$",
+      "fields": [
+        "addon"
+      ],
+      "group": "aiostreams-selos-addon",
+      "image": "https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/addons/torznab.svg"
+    },
+    {
       "label": "Áudio em português",
       "match": "^Dublado PT - (?:em|sem) cache$",
       "fields": [

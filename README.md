@@ -25,7 +25,15 @@ Os selos de português permanecem vinculados ao campo **`seMatched`** e às quat
 
 Quando a mesma versão for classificada como dublada e legendada, a preferência `Dublado` e a prioridade do grupo `aiostreams-selos-pt` exibem apenas o selo de áudio. **Importante:** um ícone de português reflete a classificação aceita pela configuração; ele não prova, por si só, que a faixa foi verificada por FFprobe.
 
-O pacote tem 78 selos. Os 18 serviços usam as imagens da [aba Serviços do AIOStreams](https://github.com/Viren070/AIOStreams/blob/302f93c3908f239f84faf28c94b357bc0583b03d/packages/frontend/src/lib/services.ts).
+## Origem de cada versão
+
+O primeiro selo da linha identifica o addon. As 63 regras de origem cobrem a seção **Streams** do mercado e indexadores Torznab/Newznab. As regras consultam o campo `addon`. Os indexadores também podem ser reconhecidos por `indexer`, e o grupo exibe uma única origem por versão. O nome personalizado `STorz` usa o selo de StremThru Torz.
+
+As imagens vêm dos cartões do mercado, dos sites dos projetos e dos próprios indexadores. Curupira, CapybaraBR e Samaritano usam o símbolo da marca. Peerflix usa o ícone atual da página de configuração. Library, Xtream, Torznab, TorrentGalaxy e WebStreamr usam pictogramas do [Lucide](https://lucide.dev/) com a [licença incluída](addons/LICENSE-lucide.txt).
+
+Para retirar a origem do título em um formatter personalizado, remova o bloco `{? · {addon.name}?}` do **Name Template** quando ele estiver presente. O AIOStreams fornece a origem ao selo independentemente do texto do formatter.
+
+O pacote tem 141 selos. Os 18 serviços usam as imagens da [aba Serviços do AIOStreams](https://github.com/Viren070/AIOStreams/blob/302f93c3908f239f84faf28c94b357bc0583b03d/packages/frontend/src/lib/services.ts).
 
 ## Ajustar o tamanho na lista de versões
 
