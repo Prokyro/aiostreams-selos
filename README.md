@@ -2,8 +2,8 @@
 
 Em **Configurações → Reprodução → Versões → Selos**, vincule o [endereço do pacote](https://raw.githubusercontent.com/Prokyro/aiostreams-selos/main/badges.json). O AIOStreams atualiza o pacote periodicamente e sincroniza a configuração entre dispositivos da mesma conta, inclusive TVs. [Documentação do AIOStreams](https://aiostreams.org/reference/version-badges/)
 
-- O microfone cromado com fones verdes aparece quando a versão entra em `Dublado PT - em cache` ou `Dublado PT - sem cache`.
-- Os balões verde e dourado aparecem quando a versão entra em `Legendado PT - em cache` ou `Legendado PT - sem cache`.
+- O alto-falante verde-claro com **PT** aparece quando a versão entra em `Dublado PT - em cache` ou `Dublado PT - sem cache`.
+- O ícone dourado de legendas com **PT** aparece quando a versão entra em `Legendado PT - em cache` ou `Legendado PT - sem cache`.
 
 Os dois selos leem a preferência selecionada (`seMatched`). A classificação pode vir da faixa ou de uma indicação aceita pelas regras da configuração. Português do Brasil, de Portugal e sem região usam os mesmos ícones.
 
@@ -27,7 +27,7 @@ Quando a mesma versão for classificada como dublada e legendada, a preferência
 
 ## Origem de cada versão
 
-O primeiro selo da linha identifica o addon. As 63 regras de origem cobrem a seção **Streams** do mercado e indexadores Torznab/Newznab. As regras consultam o campo `addon`. Os indexadores também podem ser reconhecidos por `indexer`, e o grupo exibe uma única origem por versão. O nome personalizado `STorz` usa o selo de StremThru Torz.
+A linha segue a ordem **idioma → resolução → fonte do vídeo → HDR/SDR e 10BIT → edição → formato de áudio → canais → codec de vídeo → addon → serviço**. As 63 regras de origem cobrem a seção **Streams** do mercado e indexadores Torznab/Newznab. As regras consultam o campo `addon`. Os indexadores também podem ser reconhecidos por `indexer`, e o grupo exibe uma única origem por versão. O nome personalizado `STorz` usa o selo de StremThru Torz.
 
 As imagens vêm dos cartões do mercado, dos sites dos projetos e dos próprios indexadores. Curupira, CapybaraBR e Samaritano usam o símbolo da marca. Peerflix usa o ícone atual da página de configuração. Library, Xtream, Torznab, TorrentGalaxy e WebStreamr usam pictogramas do [Lucide](https://lucide.dev/) com a [licença incluída](addons/LICENSE-lucide.txt).
 
@@ -37,7 +37,7 @@ O pacote tem 141 selos. Os 18 serviços usam as imagens da [aba Serviços do AIO
 
 ## Ajustar o tamanho na lista de versões
 
-Em **Configurações → Tema → CSS personalizado**, use o conteúdo de [selos-grandes.css](selos-grandes.css) e selecione **Aplicar CSS → Manter**. Se o tema já contém o bloco Selos AIOStreams, substitua esse bloco pela versão atual. A altura padrão fica em 20 px, ou 22 px em janelas com pelo menos 1440 px de largura. Os selos de português e o logo Full HD da Sony ganham 4 px de altura para melhorar a leitura. O aplicativo salva o tema na conta. [Documentação do tema](https://aiostreams.org/reference/web-app-css/)
+Em **Configurações → Tema → CSS personalizado**, use o conteúdo de [selos-grandes.css](selos-grandes.css) e selecione **Aplicar CSS → Manter**. Se o tema já contém o bloco Selos AIOStreams, substitua esse bloco pela versão atual. A altura padrão fica em 20 px, ou 22 px em janelas com pelo menos 1440 px de largura. O logo Full HD da Sony ganha 4 px de altura para melhorar a leitura. O aplicativo salva o tema na conta. [Documentação do tema](https://aiostreams.org/reference/web-app-css/)
 
 ## Origem das marcas
 
